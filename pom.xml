@@ -25,25 +25,24 @@
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
-    <groupId>org.ctoolkit.turnonline</groupId>
-    <artifactId>turnonline-bom</artifactId>
+    <artifactId>ctoolkit-bom</artifactId>
     <version>1.9.36-SNAPSHOT</version>
     <packaging>pom</packaging>
-    <name>TurnOnline.biz dependency baseline - BOM</name>
+    <name>CToolkiT dependency baseline - BOM</name>
     <description>
-        TurnOnline.biz dependency baseline. Bill of Materials - keeps track of dependency versions and ensures that all works well together.
+        CToolkiT dependency baseline. Bill of Materials - keeps track of dependency versions and ensures that all works well together.
     </description>
-    <url>https://github.com/turnonline/turnonline-bom</url>
+    <url>https://github.com/turnonline/ctoolkit-bom</url>
 
     <scm>
-        <connection>scm:git:[fetch=]git@github.com:turnonline/turnonline-bom.git</connection>
-        <developerConnection>scm:git:[push=]git@github.com:turnonline/turnonline-bom.git</developerConnection>
-        <url>https://github.com/turnonline/turnonline-bom</url>
+        <connection>scm:git:[fetch=]git@github.com:turnonline/ctoolkit-bom.git</connection>
+        <developerConnection>scm:git:[push=]git@github.com:turnonline/ctoolkit-bom.git</developerConnection>
+        <url>https://github.com/turnonline/ctoolkit-bom</url>
         <tag>HEAD</tag>
     </scm>
 
     <issueManagement>
-        <url>https://github.com/turnonline/turnonline-bom/issues</url>
+        <url>https://github.com/turnonline/ctoolkit-bom/issues</url>
     </issueManagement>
 
     <developers>
