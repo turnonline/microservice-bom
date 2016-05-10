@@ -256,6 +256,17 @@
                 <artifactId>orika-core</artifactId>
                 <version>1.4.5</version>
             </dependency>
+            <!-- CToolkiT dependencies -->
+            <dependency>
+                <groupId>org.ctoolkit.restapi</groupId>
+                <artifactId>rest-client-facade-api</artifactId>
+                <version>0.10</version>
+            </dependency>
+            <dependency>
+                <groupId>org.ctoolkit.restapi</groupId>
+                <artifactId>rest-client-facade-impl</artifactId>
+                <version>0.13</version>
+            </dependency>
             <!-- Test scope -->
             <dependency>
                 <groupId>org.jmockit</groupId>
