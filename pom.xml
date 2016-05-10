@@ -264,8 +264,28 @@
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.restapi</groupId>
-                <artifactId>rest-client-facade-impl</artifactId>
-                <version>0.13</version>
+                <artifactId>rest-client-facade-appengine</artifactId>
+                <version>0.15-20160510.165739-2</version>
+            </dependency>
+            <dependency>
+                <groupId>org.ctoolkit.restapi</groupId>
+                <artifactId>ctoolkit-client-analytics</artifactId>
+                <version>0.15-20160510.165741-2</version>
+            </dependency>
+            <dependency>
+                <groupId>org.ctoolkit.restapi</groupId>
+                <artifactId>ctoolkit-client-drive</artifactId>
+                <version>0.15-20160510.165743-2.jar</version>
+            </dependency>
+            <dependency>
+                <groupId>org.ctoolkit.restapi</groupId>
+                <artifactId>ctoolkit-client-identity-toolkit</artifactId>
+                <version>0.15-20160510.165746-2</version>
+            </dependency>
+            <dependency>
+                <groupId>org.ctoolkit.restapi</groupId>
+                <artifactId>ctoolkit-client-maps</artifactId>
+                <version>0.15-20160510.165748-1</version>
             </dependency>
             <!-- Test scope -->
             <dependency>
