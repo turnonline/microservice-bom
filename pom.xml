@@ -27,7 +27,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.ctoolkit.turnonline</groupId>
     <artifactId>turnonline-bom</artifactId>
-    <version>1-SNAPSHOT</version>
+    <version>1.9.36-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>TurnOnline.biz dependency baseline - BOM</name>
     <description>
@@ -99,6 +99,7 @@
                 <artifactId>appengine-jsr107cache</artifactId>
                 <version>1.9.36</version>
             </dependency>
+            <!-- Once javax.cache:cache-api fully supported on AppEngine replace jsr107cache  -->
             <dependency>
                 <groupId>net.sf.jsr107cache</groupId>
                 <artifactId>jsr107cache</artifactId>
@@ -121,6 +122,39 @@
                 <artifactId>appengine-api-stubs</artifactId>
                 <version>1.9.36</version>
                 <scope>test</scope>
+            </dependency>
+            <!-- Google Client API related dependencies -->
+            <dependency>
+                <groupId>com.google.api-client</groupId>
+                <artifactId>google-api-client</artifactId>
+                <version>1.21.0</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>com.google.guava</groupId>
+                        <artifactId>guava-jdk5</artifactId>
+                    </exclusion>
+                </exclusions>
+            </dependency>
+            <dependency>
+                <groupId>com.google.api-client</groupId>
+                <artifactId>google-api-client-appengine</artifactId>
+                <version>1.21.0</version>
+            </dependency>
+            <dependency>
+                <groupId>com.google.oauth-client</groupId>
+                <artifactId>google-oauth-client</artifactId>
+                <version>1.21.0</version>
+            </dependency>
+            <dependency>
+                <groupId>com.google.http-client</groupId>
+                <artifactId>google-http-client-jackson2</artifactId>
+                <version>1.21.0</version>
+            </dependency>
+            <!-- Specification dependencies -->
+            <dependency>
+                <groupId>javax.inject</groupId>
+                <artifactId>javax.inject</artifactId>
+                <version>1</version>
             </dependency>
             <!-- Guice dependency injection dependencies -->
             <dependency>
@@ -173,6 +207,11 @@
                 <groupId>org.freemarker</groupId>
                 <artifactId>freemarker-gae</artifactId>
                 <version>2.3.23</version>
+            </dependency>
+            <dependency>
+                <groupId>com.fasterxml.jackson.core</groupId>
+                <artifactId>jackson-core</artifactId>
+                <version>2.1.3</version>
             </dependency>
             <dependency>
                 <groupId>org.slf4j</groupId>
