@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ Copyright 2016 Comvai, s.r.o.
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <parent>
+        <groupId>org.ctoolkit.maven</groupId>
+        <artifactId>ctoolkit-parent</artifactId>
+        <version>2</version>
+    </parent>
+
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>org.ctoolkit.turnonline</groupId>
+    <artifactId>turnonline-bom</artifactId>
+    <version>1-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <name>TurnOnline.biz dependency baseline - BOM</name>
+    <description>
+        TurnOnline.biz dependency baseline. Bill of Materials - keeps track of dependency versions and ensures that all works well together.
+    </description>
+    <url>https://github.com/turnonline/turnonline-bom</url>
+
+    <scm>
+        <connection>scm:git:[fetch=]git@github.com:turnonline/turnonline-bom.git</connection>
+        <developerConnection>scm:git:[push=]git@github.com:turnonline/turnonline-bom.git</developerConnection>
+        <url>https://github.com/turnonline/turnonline-bom</url>
+        <tag>HEAD</tag>
+    </scm>
+
+    <issueManagement>
+        <url>https://github.com/turnonline/turnonline-bom/issues</url>
+    </issueManagement>
+
+    <developers>
+        <developer>
+            <name>Aurel Medvegy</name>
+            <id>medvegy</id>
+            <email>aurel.medvegy@ctoolkit.org</email>
+        </developer>
+    </developers>
+
+    <licenses>
+        <license>
+            <name>Apache License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>com.google.appengine</groupId>
+                    <artifactId>appengine-maven-plugin</artifactId>
+                    <version>1.9.36</version>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
+
+    <dependencyManagement>
+        <dependencies>
+            <!-- AppEngine Servlet API -->
+            <dependency>
+                <groupId>javax.servlet</groupId>
+                <artifactId>servlet-api</artifactId>
+                <version>2.5</version>
+                <scope>provided</scope>
+            </dependency>
+            <!-- AppEngine dependencies -->
+            <dependency>
+                <groupId>com.google.appengine</groupId>
+                <artifactId>appengine-api-1.0-sdk</artifactId>
+                <version>1.9.36</version>
+            </dependency>
+            <dependency>
+                <groupId>com.google.appengine</groupId>
+                <artifactId>appengine-api-labs</artifactId>
+                <version>1.9.36</version>
+            </dependency>
+            <dependency>
+                <groupId>com.google.appengine</groupId>
+                <artifactId>appengine-jsr107cache</artifactId>
+                <version>1.9.36</version>
+            </dependency>
+            <dependency>
+                <groupId>net.sf.jsr107cache</groupId>
+                <artifactId>jsr107cache</artifactId>
+                <version>1.1</version>
+            </dependency>
+            <dependency>
+                <groupId>com.google.appengine</groupId>
+                <artifactId>appengine-endpoints</artifactId>
+                <version>1.9.36</version>
+            </dependency>
+            <!-- AppEngine test scope -->
+            <dependency>
+                <groupId>com.google.appengine</groupId>
+                <artifactId>appengine-testing</artifactId>
+                <version>1.9.36</version>
+                <scope>test</scope>
+            </dependency>
+            <dependency>
+                <groupId>com.google.appengine</groupId>
+                <artifactId>appengine-api-stubs</artifactId>
+                <version>1.9.36</version>
+                <scope>test</scope>
+            </dependency>
+            <!-- Guice dependency injection dependencies -->
+            <dependency>
+                <groupId>com.google.inject</groupId>
+                <artifactId>guice</artifactId>
+                <version>3.0</version>
+            </dependency>
+            <dependency>
+                <groupId>com.google.inject.extensions</groupId>
+                <artifactId>guice-assistedinject</artifactId>
+                <version>3.0</version>
+            </dependency>
+            <dependency>
+                <groupId>com.google.inject.extensions</groupId>
+                <artifactId>guice-dagger-adapter</artifactId>
+                <version>3.0</version>
+            </dependency>
+            <dependency>
+                <groupId>com.google.inject.extensions</groupId>
+                <artifactId>guice-grapher</artifactId>
+                <version>3.0</version>
+            </dependency>
+            <dependency>
+                <groupId>com.google.inject.extensions</groupId>
+                <artifactId>guice-multibindings</artifactId>
+                <version>3.0</version>
+            </dependency>
+            <dependency>
+                <groupId>com.google.inject.extensions</groupId>
+                <artifactId>guice-persist</artifactId>
+                <version>3.0</version>
+            </dependency>
+            <dependency>
+                <groupId>com.google.inject.extensions</groupId>
+                <artifactId>guice-servlet</artifactId>
+                <version>3.0</version>
+            </dependency>
+            <dependency>
+                <groupId>com.google.inject.extensions</groupId>
+                <artifactId>guice-testlib</artifactId>
+                <version>3.0</version>
+            </dependency>
+            <dependency>
+                <groupId>com.google.inject.extensions</groupId>
+                <artifactId>guice-throwingproviders</artifactId>
+                <version>3.0</version>
+            </dependency>
+            <!-- Common dependencies -->
+            <dependency>
+                <groupId>org.freemarker</groupId>
+                <artifactId>freemarker-gae</artifactId>
+                <version>2.3.23</version>
+            </dependency>
+            <dependency>
+                <groupId>org.slf4j</groupId>
+                <artifactId>slf4j-api</artifactId>
+                <version>1.6.6</version>
+            </dependency>
+            <dependency>
+                <groupId>org.slf4j</groupId>
+                <artifactId>slf4j-jdk14</artifactId>
+                <version>1.6.6</version>
+            </dependency>
+            <dependency>
+                <groupId>commons-codec</groupId>
+                <artifactId>commons-codec</artifactId>
+                <version>1.6</version>
+            </dependency>
+            <dependency>
+                <groupId>commons-fileupload</groupId>
+                <artifactId>commons-fileupload</artifactId>
+                <version>1.2.1</version>
+            </dependency>
+            <!-- Guava dependencies -->
+            <dependency>
+                <groupId>com.google.guava</groupId>
+                <artifactId>guava</artifactId>
+                <version>19.0</version>
+            </dependency>
+            <dependency>
+                <groupId>com.google.guava</groupId>
+                <artifactId>guava-gwt</artifactId>
+                <version>19.0</version>
+                <scope>provided</scope>
+            </dependency>
+            <dependency>
+                <groupId>com.google.code.findbugs</groupId>
+                <artifactId>jsr305</artifactId>
+                <version>2.0.3</version>
+                <scope>provided</scope>
+            </dependency>
+            <!-- Mapping framework -->
+            <dependency>
+                <groupId>ma.glasnost.orika</groupId>
+                <artifactId>orika-core</artifactId>
+                <version>1.4.5</version>
+            </dependency>
+            <!-- Test scope -->
+            <dependency>
+                <groupId>org.jmockit</groupId>
+                <artifactId>jmockit</artifactId>
+                <version>1.23</version>
+                <scope>test</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.testng</groupId>
+                <artifactId>testng</artifactId>
+                <version>6.9.10</version>
+                <scope>test</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.ctoolkit.test</groupId>
+                <artifactId>ctoolkit-test</artifactId>
+                <version>1.0</version>
+                <scope>test</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+</project>
