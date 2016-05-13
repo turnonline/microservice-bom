@@ -28,10 +28,9 @@
     <artifactId>ctoolkit-bom</artifactId>
     <version>1.9.36-SNAPSHOT</version>
     <packaging>pom</packaging>
-    <name>CToolkiT dependency baseline - BOM</name>
+    <name>CToolkiT and Google AppEngine dependency baseline</name>
     <description>
-        CToolkiT dependency baseline.
-        Bill of Materials - keeps track of dependency versions and ensures that all works well together on Google AppEngine.
+        CToolkiT on Google AppEngine Bill of Materials - keeps track of dependency versions and ensures that all works well together.
     </description>
     <url>https://github.com/turnonline/ctoolkit-bom</url>
 
@@ -100,12 +99,6 @@
                 <artifactId>appengine-jsr107cache</artifactId>
                 <version>1.9.36</version>
             </dependency>
-            <!-- Once javax.cache:cache-api fully supported on AppEngine replace jsr107cache  -->
-            <dependency>
-                <groupId>net.sf.jsr107cache</groupId>
-                <artifactId>jsr107cache</artifactId>
-                <version>1.1</version>
-            </dependency>
             <dependency>
                 <groupId>com.google.appengine</groupId>
                 <artifactId>appengine-endpoints</artifactId>
@@ -136,197 +129,6 @@
                 <groupId>com.google.appengine</groupId>
                 <artifactId>appengine-api-stubs</artifactId>
                 <version>1.9.36</version>
-            </dependency>
-            <!-- AppEngine datastore related dependency -->
-            <dependency>
-                <groupId>com.googlecode.objectify</groupId>
-                <artifactId>objectify</artifactId>
-                <version>4.1.3</version>
-            </dependency>
-            <dependency>
-                <groupId>com.google.appengine.tools</groupId>
-                <artifactId>appengine-gcs-client</artifactId>
-                <version>0.6</version>
-            </dependency>
-            <dependency>
-                <groupId>com.google.appengine.tools</groupId>
-                <artifactId>appengine-mapreduce</artifactId>
-                <version>0.8.5</version>
-            </dependency>
-            <!-- Google Client API related dependencies -->
-            <dependency>
-                <groupId>com.google.api-client</groupId>
-                <artifactId>google-api-client</artifactId>
-                <version>1.21.0</version>
-                <exclusions>
-                    <exclusion>
-                        <groupId>com.google.guava</groupId>
-                        <artifactId>guava-jdk5</artifactId>
-                    </exclusion>
-                </exclusions>
-            </dependency>
-            <dependency>
-                <groupId>com.google.api-client</groupId>
-                <artifactId>google-api-client-appengine</artifactId>
-                <version>1.21.0</version>
-            </dependency>
-            <dependency>
-                <groupId>com.google.oauth-client</groupId>
-                <artifactId>google-oauth-client</artifactId>
-                <version>1.21.0</version>
-            </dependency>
-            <dependency>
-                <groupId>com.google.http-client</groupId>
-                <artifactId>google-http-client</artifactId>
-                <version>1.21.0</version>
-            </dependency>
-            <dependency>
-                <groupId>com.google.http-client</groupId>
-                <artifactId>google-http-client-appengine</artifactId>
-                <version>1.21.0</version>
-            </dependency>
-            <dependency>
-                <groupId>com.google.http-client</groupId>
-                <artifactId>google-http-client-jackson2</artifactId>
-                <version>1.21.0</version>
-            </dependency>
-            <!-- Specification dependencies -->
-            <dependency>
-                <groupId>javax.mail</groupId>
-                <artifactId>mail</artifactId>
-                <version>1.4.1</version>
-            </dependency>
-            <dependency>
-                <groupId>javax.validation</groupId>
-                <artifactId>validation-api</artifactId>
-                <version>1.0.0.GA</version>
-            </dependency>
-            <dependency>
-                <groupId>javax.validation</groupId>
-                <artifactId>validation-api</artifactId>
-                <version>1.0.0.GA</version>
-                <classifier>sources</classifier>
-            </dependency>
-            <dependency>
-                <groupId>javax.inject</groupId>
-                <artifactId>javax.inject</artifactId>
-                <version>1</version>
-            </dependency>
-            <!-- Guice dependency injection dependencies -->
-            <dependency>
-                <groupId>com.google.inject</groupId>
-                <artifactId>guice</artifactId>
-                <version>3.0</version>
-            </dependency>
-            <dependency>
-                <groupId>com.google.inject.extensions</groupId>
-                <artifactId>guice-assistedinject</artifactId>
-                <version>3.0</version>
-            </dependency>
-            <dependency>
-                <groupId>com.google.inject.extensions</groupId>
-                <artifactId>guice-dagger-adapter</artifactId>
-                <version>3.0</version>
-            </dependency>
-            <dependency>
-                <groupId>com.google.inject.extensions</groupId>
-                <artifactId>guice-grapher</artifactId>
-                <version>3.0</version>
-            </dependency>
-            <dependency>
-                <groupId>com.google.inject.extensions</groupId>
-                <artifactId>guice-multibindings</artifactId>
-                <version>3.0</version>
-            </dependency>
-            <dependency>
-                <groupId>com.google.inject.extensions</groupId>
-                <artifactId>guice-persist</artifactId>
-                <version>3.0</version>
-            </dependency>
-            <dependency>
-                <groupId>com.google.inject.extensions</groupId>
-                <artifactId>guice-servlet</artifactId>
-                <version>3.0</version>
-            </dependency>
-            <dependency>
-                <groupId>com.google.inject.extensions</groupId>
-                <artifactId>guice-testlib</artifactId>
-                <version>3.0</version>
-            </dependency>
-            <dependency>
-                <groupId>com.google.inject.extensions</groupId>
-                <artifactId>guice-throwingproviders</artifactId>
-                <version>3.0</version>
-            </dependency>
-            <!-- Common dependencies -->
-            <dependency>
-                <groupId>org.freemarker</groupId>
-                <artifactId>freemarker-gae</artifactId>
-                <version>2.3.23</version>
-            </dependency>
-            <dependency>
-                <groupId>com.fasterxml.jackson.core</groupId>
-                <artifactId>jackson-core</artifactId>
-                <version>2.1.3</version>
-            </dependency>
-            <dependency>
-                <groupId>com.fasterxml.jackson.core</groupId>
-                <artifactId>jackson-databind</artifactId>
-                <version>2.1.3</version>
-            </dependency>
-            <dependency>
-                <groupId>com.google.code.gson</groupId>
-                <artifactId>gson</artifactId>
-                <version>2.3.1</version>
-            </dependency>
-            <dependency>
-                <groupId>org.slf4j</groupId>
-                <artifactId>slf4j-api</artifactId>
-                <version>1.6.6</version>
-            </dependency>
-            <dependency>
-                <groupId>org.slf4j</groupId>
-                <artifactId>slf4j-jdk14</artifactId>
-                <version>1.6.6</version>
-            </dependency>
-            <dependency>
-                <groupId>commons-codec</groupId>
-                <artifactId>commons-codec</artifactId>
-                <version>1.6</version>
-            </dependency>
-            <dependency>
-                <groupId>commons-fileupload</groupId>
-                <artifactId>commons-fileupload</artifactId>
-                <version>1.2.1</version>
-            </dependency>
-            <dependency>
-                <groupId>joda-time</groupId>
-                <artifactId>joda-time</artifactId>
-                <version>2.3</version>
-            </dependency>
-            <!-- Guava dependencies -->
-            <dependency>
-                <groupId>com.google.guava</groupId>
-                <artifactId>guava</artifactId>
-                <version>19.0</version>
-            </dependency>
-            <dependency>
-                <groupId>com.google.guava</groupId>
-                <artifactId>guava-gwt</artifactId>
-                <version>19.0</version>
-                <scope>provided</scope>
-            </dependency>
-            <dependency>
-                <groupId>com.google.code.findbugs</groupId>
-                <artifactId>jsr305</artifactId>
-                <version>2.0.3</version>
-                <scope>provided</scope>
-            </dependency>
-            <!-- Mapping framework -->
-            <dependency>
-                <groupId>ma.glasnost.orika</groupId>
-                <artifactId>orika-core</artifactId>
-                <version>1.4.5</version>
             </dependency>
             <!-- CToolkiT dependencies -->
             <dependency>
