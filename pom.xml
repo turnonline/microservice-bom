@@ -25,24 +25,24 @@
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
-    <artifactId>ctoolkit-bom</artifactId>
+    <artifactId>ctoolkit-project-bom</artifactId>
     <version>1.9.36-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>CToolkiT and Google AppEngine dependency baseline</name>
     <description>
         CToolkiT on Google AppEngine Bill of Materials - keeps track of dependency versions and ensures that all works well together.
     </description>
-    <url>https://github.com/turnonline/ctoolkit-bom</url>
+    <url>https://github.com/turnonline/ctoolkit-project-bom</url>
 
     <scm>
-        <connection>scm:git:[fetch=]git@github.com:turnonline/ctoolkit-bom.git</connection>
-        <developerConnection>scm:git:[push=]git@github.com:turnonline/ctoolkit-bom.git</developerConnection>
-        <url>https://github.com/turnonline/ctoolkit-bom</url>
+        <connection>scm:git:[fetch=]git@github.com:turnonline/ctoolkit-project-bom.git</connection>
+        <developerConnection>scm:git:[push=]git@github.com:turnonline/ctoolkit-project-bom.git</developerConnection>
+        <url>https://github.com/turnonline/ctoolkit-project-bom</url>
         <tag>HEAD</tag>
     </scm>
 
     <issueManagement>
-        <url>https://github.com/turnonline/ctoolkit-bom/issues</url>
+        <url>https://github.com/turnonline/ctoolkit-project-bom/issues</url>
     </issueManagement>
 
     <developers>
