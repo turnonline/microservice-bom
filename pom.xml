@@ -114,18 +114,18 @@
             <!-- CToolkiT dependencies -->
             <dependency>
                 <groupId>org.ctoolkit.restapi</groupId>
-                <artifactId>rest-client-facade-api</artifactId>
-                <version>0.10</version>
+                <artifactId>ctoolkit-rest-facade-api</artifactId>
+                <version>0.11</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.restapi</groupId>
-                <artifactId>rest-client-facade-adapter</artifactId>
-                <version>0.13</version>
+                <artifactId>ctoolkit-rest-facade-adapter</artifactId>
+                <version>0.15</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.restapi</groupId>
-                <artifactId>rest-client-facade-appengine</artifactId>
-                <version>0.13</version>
+                <artifactId>ctoolkit-rest-facade-appengine</artifactId>
+                <version>0.15</version>
                 <exclusions>
                     <exclusion>
                         <groupId>javax.jdo</groupId>
@@ -140,22 +140,22 @@
             <dependency>
                 <groupId>org.ctoolkit.restapi</groupId>
                 <artifactId>ctoolkit-client-analytics</artifactId>
-                <version>0.13</version>
+                <version>0.15</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.restapi</groupId>
                 <artifactId>ctoolkit-client-drive</artifactId>
-                <version>0.13</version>
+                <version>0.15</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.restapi</groupId>
                 <artifactId>ctoolkit-client-identity-toolkit</artifactId>
-                <version>0.13</version>
+                <version>0.15</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.restapi</groupId>
                 <artifactId>ctoolkit-client-maps</artifactId>
-                <version>0.13</version>
+                <version>0.15</version>
             </dependency>
             <!-- Test scope, unit testing -->
             <dependency>
