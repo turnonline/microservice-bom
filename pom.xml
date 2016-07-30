@@ -15,8 +15,7 @@
   ~ limitations under the License.
   -->
 
-<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
     <parent>
         <groupId>org.ctoolkit.maven</groupId>
@@ -26,7 +25,7 @@
 
     <modelVersion>4.0.0</modelVersion>
     <artifactId>ctoolkit-project-bom</artifactId>
-    <version>1.9.40-SNAPSHOT</version>
+    <version>1.9.40</version>
     <packaging>pom</packaging>
     <name>CToolkiT and Google AppEngine dependency baseline</name>
     <description>
@@ -38,7 +37,7 @@
         <connection>scm:git:[fetch=]git@github.com:turnonline/ctoolkit-project-bom.git</connection>
         <developerConnection>scm:git:[push=]git@github.com:turnonline/ctoolkit-project-bom.git</developerConnection>
         <url>https://github.com/turnonline/ctoolkit-project-bom</url>
-        <tag>HEAD</tag>
+        <tag>ctoolkit-project-bom-1.9.40</tag>
     </scm>
 
     <issueManagement>
