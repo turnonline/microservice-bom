@@ -15,7 +15,8 @@
   ~ limitations under the License.
   -->
 
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
     <parent>
         <groupId>org.ctoolkit.maven</groupId>
@@ -67,48 +68,48 @@
             <dependency>
                 <groupId>com.google.appengine</groupId>
                 <artifactId>appengine-api-1.0-sdk</artifactId>
-                <version>1.9.40</version>
+                <version>1.9.42</version>
             </dependency>
             <dependency>
                 <groupId>com.google.appengine</groupId>
                 <artifactId>appengine-api-labs</artifactId>
-                <version>1.9.40</version>
+                <version>1.9.42</version>
             </dependency>
             <dependency>
                 <groupId>com.google.appengine</groupId>
                 <artifactId>appengine-jsr107cache</artifactId>
-                <version>1.9.40</version>
+                <version>1.9.42</version>
             </dependency>
             <dependency>
                 <groupId>com.google.appengine</groupId>
                 <artifactId>appengine-endpoints</artifactId>
-                <version>1.9.40</version>
+                <version>1.9.42</version>
             </dependency>
             <dependency>
                 <groupId>com.google.appengine</groupId>
                 <artifactId>appengine-local-endpoints</artifactId>
-                <version>1.9.40</version>
+                <version>1.9.42</version>
             </dependency>
             <dependency>
                 <groupId>com.google.appengine</groupId>
                 <artifactId>appengine-remote-api</artifactId>
-                <version>1.9.40</version>
+                <version>1.9.42</version>
             </dependency>
             <dependency>
                 <groupId>com.google.appengine</groupId>
                 <artifactId>appengine-tools-sdk</artifactId>
-                <version>1.9.40</version>
+                <version>1.9.42</version>
             </dependency>
             <!-- AppEngine dependencies usually as test scope -->
             <dependency>
                 <groupId>com.google.appengine</groupId>
                 <artifactId>appengine-testing</artifactId>
-                <version>1.9.40</version>
+                <version>1.9.42</version>
             </dependency>
             <dependency>
                 <groupId>com.google.appengine</groupId>
                 <artifactId>appengine-api-stubs</artifactId>
-                <version>1.9.40</version>
+                <version>1.9.42</version>
             </dependency>
             <!-- CToolkiT dependencies -->
             <dependency>
