@@ -15,21 +15,23 @@
   ~ limitations under the License.
   -->
 
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
     <parent>
         <groupId>org.ctoolkit.maven</groupId>
-        <artifactId>ctoolkit-parent</artifactId>
-        <version>5</version>
+        <artifactId>ctoolkit-public</artifactId>
+        <version>1</version>
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
     <artifactId>ctoolkit-project-bom</artifactId>
-    <version>1.9.50-SNAPSHOT</version>
+    <version>1.9.49.2-SNAPSHOT</version>
     <packaging>pom</packaging>
-    <name>CToolkiT and Google AppEngine dependency baseline</name>
+    <name>CtoolkiT and Google AppEngine dependency baseline</name>
     <description>
-        CToolkiT on Google AppEngine Bill of Materials - keeps track of dependency versions and ensures that all works well together.
+        CtoolkiT on Google AppEngine Bill of Materials - keeps track of dependency versions and ensures that all works
+        well together.
     </description>
     <url>https://github.com/turnonline/ctoolkit-project-bom</url>
 
@@ -110,21 +112,21 @@
                 <artifactId>appengine-api-stubs</artifactId>
                 <version>1.9.49</version>
             </dependency>
-            <!-- CToolkiT dependencies -->
+            <!-- CtoolkiT dependencies -->
             <dependency>
                 <groupId>org.ctoolkit.restapi</groupId>
                 <artifactId>ctoolkit-rest-facade-api</artifactId>
-                <version>0.14</version>
+                <version>0.15</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.restapi</groupId>
                 <artifactId>ctoolkit-rest-facade-adapter</artifactId>
-                <version>0.20</version>
+                <version>0.21</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.restapi</groupId>
                 <artifactId>ctoolkit-rest-facade-appengine</artifactId>
-                <version>0.20</version>
+                <version>0.21</version>
                 <exclusions>
                     <exclusion>
                         <groupId>javax.jdo</groupId>
@@ -139,22 +141,52 @@
             <dependency>
                 <groupId>org.ctoolkit.restapi</groupId>
                 <artifactId>ctoolkit-client-analytics</artifactId>
-                <version>0.20</version>
+                <version>0.21</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.restapi</groupId>
                 <artifactId>ctoolkit-client-drive</artifactId>
-                <version>0.20</version>
+                <version>0.21</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.restapi</groupId>
                 <artifactId>ctoolkit-client-identity-toolkit</artifactId>
-                <version>0.20</version>
+                <version>0.21</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.restapi</groupId>
                 <artifactId>ctoolkit-client-maps</artifactId>
-                <version>0.20</version>
+                <version>0.21</version>
+            </dependency>
+            <dependency>
+                <groupId>org.ctoolkit.services</groupId>
+                <artifactId>ctoolkit-services-api</artifactId>
+                <version>0.6</version>
+            </dependency>
+            <dependency>
+                <groupId>org.ctoolkit.services</groupId>
+                <artifactId>ctoolkit-services-common</artifactId>
+                <version>0.6</version>
+            </dependency>
+            <dependency>
+                <groupId>org.ctoolkit.services</groupId>
+                <artifactId>ctoolkit-services-guice</artifactId>
+                <version>0.6</version>
+            </dependency>
+            <dependency>
+                <groupId>org.ctoolkit.services</groupId>
+                <artifactId>ctoolkit-services-identity</artifactId>
+                <version>0.6</version>
+            </dependency>
+            <dependency>
+                <groupId>org.ctoolkit.services</groupId>
+                <artifactId>ctoolkit-services-storage</artifactId>
+                <version>0.6</version>
+            </dependency>
+            <dependency>
+                <groupId>org.ctoolkit.services</groupId>
+                <artifactId>ctoolkit-services-upload</artifactId>
+                <version>0.6</version>
             </dependency>
             <!-- Test scope, unit testing -->
             <dependency>
