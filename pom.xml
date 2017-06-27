@@ -261,15 +261,9 @@
             </dependency>
             <!-- Test scope, unit testing -->
             <dependency>
-                <groupId>org.jukito</groupId>
-                <artifactId>jukito</artifactId>
-                <version>1.5</version>
-                <scope>test</scope>
-            </dependency>
-            <dependency>
                 <groupId>org.jmockit</groupId>
                 <artifactId>jmockit</artifactId>
-                <version>1.32</version>
+                <version>1.33</version>
                 <scope>test</scope>
             </dependency>
             <dependency>
