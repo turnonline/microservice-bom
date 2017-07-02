@@ -25,25 +25,26 @@
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
-    <artifactId>ctoolkit-project-bom</artifactId>
+    <artifactId>ctoolkit-microservice-bom</artifactId>
     <version>1.9.54-SNAPSHOT</version>
     <packaging>pom</packaging>
-    <name>CtoolkiT and Google AppEngine dependency baseline</name>
+    <name>CtoolkiT microservice on Google App Engine standard</name>
     <description>
-        CtoolkiT on Google AppEngine Bill of Materials - keeps track of dependency versions and ensures that all works
-        well together.
+        CtoolkiT based microservice on Google App Engine standard Bill of Materials - keeps track of dependency
+        versions and ensures that all works well together.
     </description>
-    <url>https://github.com/turnonline/ctoolkit-project-bom</url>
+    <url>https://github.com/turnonline/ctoolkit-microservice-bom</url>
 
     <scm>
-        <connection>scm:git:[fetch=]git@github.com:turnonline/ctoolkit-project-bom.git</connection>
-        <developerConnection>scm:git:[push=]git@github.com:turnonline/ctoolkit-project-bom.git</developerConnection>
-        <url>https://github.com/turnonline/ctoolkit-project-bom</url>
+        <connection>scm:git:[fetch=]git@github.com:turnonline/ctoolkit-microservice-bom.git</connection>
+        <developerConnection>scm:git:[push=]git@github.com:turnonline/ctoolkit-microservice-bom.git
+        </developerConnection>
+        <url>https://github.com/turnonline/ctoolkit-microservice-bom</url>
         <tag>HEAD</tag>
     </scm>
 
     <issueManagement>
-        <url>https://github.com/turnonline/ctoolkit-project-bom/issues</url>
+        <url>https://github.com/turnonline/ctoolkit-microservice-bom/issues</url>
     </issueManagement>
 
     <developers>
