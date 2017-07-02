@@ -182,17 +182,17 @@
             <dependency>
                 <groupId>org.ctoolkit.restapi</groupId>
                 <artifactId>ctoolkit-rest-facade-api</artifactId>
-                <version>0.16-20170628.210417-13</version>
+                <version>0.16</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.restapi</groupId>
                 <artifactId>ctoolkit-rest-facade-adapter</artifactId>
-                <version>0.23-20170628.211226-11</version>
+                <version>0.23-20170702.063526-13</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.restapi</groupId>
                 <artifactId>ctoolkit-rest-facade-appengine</artifactId>
-                <version>0.23-20170628.211238-11</version>
+                <version>0.23-20170702.063533-12</version>
                 <exclusions>
                     <exclusion>
                         <groupId>javax.jdo</groupId>
@@ -207,32 +207,32 @@
             <dependency>
                 <groupId>org.ctoolkit.restapi</groupId>
                 <artifactId>ctoolkit-client-analytics</artifactId>
-                <version>0.23-20170628.211250-11</version>
+                <version>0.23-20170702.063539-12</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.restapi</groupId>
                 <artifactId>ctoolkit-client-drive</artifactId>
-                <version>0.23-20170628.211254-11</version>
+                <version>0.23-20170702.063542-12</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.restapi</groupId>
                 <artifactId>ctoolkit-client-identity-toolkit</artifactId>
-                <version>0.23-20170628.211301-11</version>
+                <version>0.23-20170702.063546-12</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.restapi</groupId>
                 <artifactId>ctoolkit-client-maps</artifactId>
-                <version>0.23-20170628.211307-11</version>
+                <version>0.23-20170702.063548-12</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.restapi</groupId>
                 <artifactId>ctoolkit-client-agent</artifactId>
-                <version>0.23-20170628.211245-11</version>
+                <version>0.23-20170702.063537-12</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.restapi</groupId>
                 <artifactId>ctoolkit-client-pubsub</artifactId>
-                <version>0.23-20170628.211313-10</version>
+                <version>0.23-20170702.063552-11</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.services</groupId>
@@ -270,12 +270,6 @@
                 <groupId>org.testng</groupId>
                 <artifactId>testng</artifactId>
                 <version>6.9.10</version>
-                <scope>test</scope>
-            </dependency>
-            <dependency>
-                <groupId>org.ctoolkit.test</groupId>
-                <artifactId>ctoolkit-test</artifactId>
-                <version>1.2</version>
                 <scope>test</scope>
             </dependency>
         </dependencies>
