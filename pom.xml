@@ -228,7 +228,7 @@
             <dependency>
                 <groupId>org.ctoolkit.restapi</groupId>
                 <artifactId>ctoolkit-client-agent</artifactId>
-                <version>0.24-20170718.175648-1</version>
+                <version>0.24-20170726.114047-2</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.restapi</groupId>
@@ -260,6 +260,13 @@
                 <artifactId>ctoolkit-services-upload</artifactId>
                 <version>0.9</version>
             </dependency>
+            <dependency>
+                <groupId>org.ctoolkit.restapi</groupId>
+                <artifactId>ctoolkit-client-migration-agent</artifactId>
+                <version>0.20-SNAPSHOT</version>
+            </dependency>
+
+            <!-- Test scope, unit testing -->
             <dependency>
                 <groupId>org.ctoolkit.services</groupId>
                 <artifactId>ctoolkit-services-taskqueue</artifactId>
