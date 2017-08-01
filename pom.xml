@@ -188,12 +188,12 @@
             <dependency>
                 <groupId>org.ctoolkit.restapi</groupId>
                 <artifactId>ctoolkit-rest-facade-adapter</artifactId>
-                <version>0.24-20170731.153458-3</version>
+                <version>0.24-20170801.201530-4</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.restapi</groupId>
                 <artifactId>ctoolkit-rest-facade-appengine</artifactId>
-                <version>0.24-20170731.153506-3</version>
+                <version>0.24-20170801.201539-4</version>
                 <exclusions>
                     <exclusion>
                         <groupId>javax.jdo</groupId>
@@ -208,32 +208,32 @@
             <dependency>
                 <groupId>org.ctoolkit.restapi</groupId>
                 <artifactId>ctoolkit-client-analytics</artifactId>
-                <version>0.24-20170731.153516-3</version>
+                <version>0.24-20170801.201548-4</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.restapi</groupId>
                 <artifactId>ctoolkit-client-drive</artifactId>
-                <version>0.24-20170731.153521-3</version>
+                <version>0.24-20170801.201551-4</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.restapi</groupId>
                 <artifactId>ctoolkit-client-identity-toolkit</artifactId>
-                <version>0.24-20170731.153527-3</version>
+                <version>0.24-20170801.201557-4</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.restapi</groupId>
                 <artifactId>ctoolkit-client-maps</artifactId>
-                <version>0.24-20170731.153531-3</version>
+                <version>0.24-20170801.201600-4</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.restapi</groupId>
                 <artifactId>ctoolkit-client-agent</artifactId>
-                <version>0.24-20170731.153512-4</version>
+                <version>0.24-20170801.201545-5</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.restapi</groupId>
                 <artifactId>ctoolkit-client-pubsub</artifactId>
-                <version>0.24-20170731.153537-3</version>
+                <version>0.24-20170801.201605-4</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.services</groupId>
