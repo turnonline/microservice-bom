@@ -228,7 +228,7 @@
             <dependency>
                 <groupId>org.ctoolkit.restapi</groupId>
                 <artifactId>ctoolkit-client-agent</artifactId>
-                <version>0.24-20170807.214642-9</version>
+                <version>0.24-20170808.184744-10</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.restapi</groupId>
