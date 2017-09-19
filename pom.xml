@@ -15,8 +15,7 @@
   ~ limitations under the License.
   -->
 
-<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
     <parent>
         <groupId>org.ctoolkit.maven</groupId>
@@ -26,7 +25,7 @@
 
     <modelVersion>4.0.0</modelVersion>
     <artifactId>ctoolkit-microservice-bom</artifactId>
-    <version>1.9.56-SNAPSHOT</version>
+    <version>1.9.56</version>
     <packaging>pom</packaging>
     <name>CtoolkiT microservice on Google App Engine standard</name>
     <description>
@@ -40,7 +39,7 @@
         <developerConnection>scm:git:[push=]git@github.com:turnonline/ctoolkit-microservice-bom.git
         </developerConnection>
         <url>https://github.com/turnonline/ctoolkit-microservice-bom</url>
-        <tag>HEAD</tag>
+        <tag>ctoolkit-microservice-bom-1.9.56</tag>
     </scm>
 
     <issueManagement>
