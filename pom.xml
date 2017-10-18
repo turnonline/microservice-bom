@@ -216,11 +216,6 @@
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.restapi</groupId>
-                <artifactId>ctoolkit-client-identity-toolkit</artifactId>
-                <version>0.24</version>
-            </dependency>
-            <dependency>
-                <groupId>org.ctoolkit.restapi</groupId>
                 <artifactId>ctoolkit-client-maps</artifactId>
                 <version>0.24</version>
             </dependency>
@@ -237,34 +232,32 @@
             <dependency>
                 <groupId>org.ctoolkit.services</groupId>
                 <artifactId>ctoolkit-services-common</artifactId>
-                <version>0.9</version>
+                <version>0.10-20171018.201938-2</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.services</groupId>
                 <artifactId>ctoolkit-services-guice</artifactId>
-                <version>0.9</version>
+                <version>0.10-20171018.201927-2</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.services</groupId>
                 <artifactId>ctoolkit-services-identity</artifactId>
-                <version>0.9</version>
+                <version>0.10-20171018.201956-2</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.services</groupId>
                 <artifactId>ctoolkit-services-storage</artifactId>
-                <version>0.9</version>
+                <version>0.10-20171018.202017-2</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.services</groupId>
                 <artifactId>ctoolkit-services-upload</artifactId>
-                <version>0.9</version>
+                <version>0.10-20171018.202005-2</version>
             </dependency>
-
-            <!-- Test scope, unit testing -->
             <dependency>
                 <groupId>org.ctoolkit.services</groupId>
                 <artifactId>ctoolkit-services-taskqueue</artifactId>
-                <version>0.9</version>
+                <version>0.10-20171018.201948-2</version>
             </dependency>
             <!-- Test scope, unit testing -->
             <dependency>
