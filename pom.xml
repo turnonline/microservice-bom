@@ -232,32 +232,37 @@
             <dependency>
                 <groupId>org.ctoolkit.services</groupId>
                 <artifactId>ctoolkit-services-common</artifactId>
-                <version>0.10-20171018.201938-2</version>
+                <version>0.10-20171020.233733-3</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.services</groupId>
                 <artifactId>ctoolkit-services-guice</artifactId>
-                <version>0.10-20171018.201927-2</version>
+                <version>0.10-20171020.233723-3</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.services</groupId>
                 <artifactId>ctoolkit-services-identity</artifactId>
-                <version>0.10-20171018.201956-2</version>
+                <version>0.10-20171020.233745-3</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.services</groupId>
                 <artifactId>ctoolkit-services-storage</artifactId>
-                <version>0.10-20171018.202017-2</version>
+                <version>0.10-20171020.233755-3</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.services</groupId>
                 <artifactId>ctoolkit-services-upload</artifactId>
-                <version>0.10-20171018.202005-2</version>
+                <version>0.10-20171020.233749-3</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.services</groupId>
                 <artifactId>ctoolkit-services-taskqueue</artifactId>
-                <version>0.10-20171018.201948-2</version>
+                <version>0.10-20171020.233740-3</version>
+            </dependency>
+            <dependency>
+                <groupId>org.ctoolkit.services</groupId>
+                <artifactId>ctoolkit-services-endpoints</artifactId>
+                <version>0.10-20171020.233726-1</version>
             </dependency>
             <!-- Test scope, unit testing -->
             <dependency>
