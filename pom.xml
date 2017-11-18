@@ -237,37 +237,37 @@
             <dependency>
                 <groupId>org.ctoolkit.services</groupId>
                 <artifactId>ctoolkit-services-common</artifactId>
-                <version>0.10-20171117.075910-8</version>
+                <version>0.10-20171118.074431-9</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.services</groupId>
                 <artifactId>ctoolkit-services-guice</artifactId>
-                <version>0.10-20171117.075857-8</version>
+                <version>0.10-20171118.074417-9</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.services</groupId>
                 <artifactId>ctoolkit-services-identity</artifactId>
-                <version>0.10-20171117.075924-8</version>
+                <version>0.10-20171118.074444-9</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.services</groupId>
                 <artifactId>ctoolkit-services-storage</artifactId>
-                <version>0.10-20171117.075937-8</version>
+                <version>0.10-20171118.074457-9</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.services</groupId>
                 <artifactId>ctoolkit-services-upload</artifactId>
-                <version>0.10-20171117.075930-8</version>
+                <version>0.10-20171118.074450-9</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.services</groupId>
                 <artifactId>ctoolkit-services-taskqueue</artifactId>
-                <version>0.10-20171117.075918-8</version>
+                <version>0.10-20171118.074438-9</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.services</groupId>
                 <artifactId>ctoolkit-services-endpoints</artifactId>
-                <version>0.10-20171117.075903-8</version>
+                <version>0.10-20171118.074423-9</version>
             </dependency>
             <!-- Test scope, unit testing -->
             <dependency>
