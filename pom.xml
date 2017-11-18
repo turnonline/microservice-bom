@@ -187,12 +187,12 @@
             <dependency>
                 <groupId>org.ctoolkit.restapi</groupId>
                 <artifactId>ctoolkit-rest-facade-adapter</artifactId>
-                <version>0.24</version>
+                <version>0.25-20171118.050529-2</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.restapi</groupId>
                 <artifactId>ctoolkit-rest-facade-appengine</artifactId>
-                <version>0.24</version>
+                <version>0.25-20171118.050537-2</version>
                 <exclusions>
                     <exclusion>
                         <groupId>javax.jdo</groupId>
@@ -207,27 +207,32 @@
             <dependency>
                 <groupId>org.ctoolkit.restapi</groupId>
                 <artifactId>ctoolkit-client-analytics</artifactId>
-                <version>0.24</version>
+                <version>0.25-20171118.050549-2</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.restapi</groupId>
                 <artifactId>ctoolkit-client-drive</artifactId>
-                <version>0.24</version>
+                <version>0.25-20171118.050554-2</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.restapi</groupId>
                 <artifactId>ctoolkit-client-maps</artifactId>
-                <version>0.24</version>
+                <version>0.25-20171118.050604-2</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.restapi</groupId>
                 <artifactId>ctoolkit-client-agent</artifactId>
-                <version>0.25-20171007.225058-5</version>
+                <version>0.25-20171118.050543-7</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.restapi</groupId>
                 <artifactId>ctoolkit-client-pubsub</artifactId>
-                <version>0.24</version>
+                <version>0.25-20171118.050611-2</version>
+            </dependency>
+            <dependency>
+                <groupId>org.ctoolkit.restapi</groupId>
+                <artifactId>ctoolkit-client-sheets</artifactId>
+                <version>0.25-20171118.050616-2</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.services</groupId>
