@@ -237,37 +237,37 @@
             <dependency>
                 <groupId>org.ctoolkit.services</groupId>
                 <artifactId>ctoolkit-services-common</artifactId>
-                <version>0.10-20171211.052314-16</version>
+                <version>0.10-20171212.074105-17</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.services</groupId>
                 <artifactId>ctoolkit-services-guice</artifactId>
-                <version>0.10-20171211.052301-16</version>
+                <version>0.10-20171212.074052-17</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.services</groupId>
                 <artifactId>ctoolkit-services-identity</artifactId>
-                <version>0.10-20171211.052327-16</version>
+                <version>0.10-20171212.074119-17</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.services</groupId>
                 <artifactId>ctoolkit-services-storage</artifactId>
-                <version>0.10-20171211.052341-16</version>
+                <version>0.10-20171212.074133-17</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.services</groupId>
                 <artifactId>ctoolkit-services-upload</artifactId>
-                <version>0.10-20171211.052334-16</version>
+                <version>0.10-20171212.074125-17</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.services</groupId>
                 <artifactId>ctoolkit-services-taskqueue</artifactId>
-                <version>0.10-20171211.052321-16</version>
+                <version>0.10-20171212.074113-17</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.services</groupId>
                 <artifactId>ctoolkit-services-endpoints</artifactId>
-                <version>0.10-20171211.052306-16</version>
+                <version>0.10-20171212.074057-17</version>
             </dependency>
             <!-- Test scope, unit testing -->
             <dependency>
