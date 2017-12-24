@@ -237,49 +237,49 @@
             <dependency>
                 <groupId>org.ctoolkit.services</groupId>
                 <artifactId>ctoolkit-services-common</artifactId>
-                <version>0.10-20171212.074105-17</version>
+                <version>0.10-20171224.101818-18</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.services</groupId>
                 <artifactId>ctoolkit-services-guice</artifactId>
-                <version>0.10-20171212.074052-17</version>
+                <version>0.10-20171224.101807-18</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.services</groupId>
                 <artifactId>ctoolkit-services-identity</artifactId>
-                <version>0.10-20171212.074119-17</version>
+                <version>0.10-20171224.101830-18</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.services</groupId>
                 <artifactId>ctoolkit-services-storage</artifactId>
-                <version>0.10-20171212.074133-17</version>
+                <version>0.10-20171224.101841-18</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.services</groupId>
                 <artifactId>ctoolkit-services-upload</artifactId>
-                <version>0.10-20171212.074125-17</version>
+                <version>0.10-20171224.101834-18</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.services</groupId>
                 <artifactId>ctoolkit-services-taskqueue</artifactId>
-                <version>0.10-20171212.074113-17</version>
+                <version>0.10-20171224.101824-18</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.services</groupId>
                 <artifactId>ctoolkit-services-endpoints</artifactId>
-                <version>0.10-20171212.074057-17</version>
+                <version>0.10-20171224.101811-18</version>
             </dependency>
             <!-- Test scope, unit testing -->
             <dependency>
                 <groupId>org.jmockit</groupId>
                 <artifactId>jmockit</artifactId>
-                <version>1.34</version>
+                <version>1.37</version>
                 <scope>test</scope>
             </dependency>
             <dependency>
                 <groupId>org.testng</groupId>
                 <artifactId>testng</artifactId>
-                <version>6.9.10</version>
+                <version>6.11</version>
                 <scope>test</scope>
             </dependency>
         </dependencies>
