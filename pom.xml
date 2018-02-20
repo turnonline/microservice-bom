@@ -69,69 +69,69 @@
             <dependency>
                 <groupId>com.google.appengine</groupId>
                 <artifactId>appengine-api-1.0-sdk</artifactId>
-                <version>1.9.60</version>
+                <version>1.9.61</version>
             </dependency>
             <dependency>
                 <groupId>com.google.appengine</groupId>
                 <artifactId>appengine-api-labs</artifactId>
-                <version>1.9.60</version>
+                <version>1.9.61</version>
             </dependency>
             <dependency>
                 <groupId>com.google.appengine</groupId>
                 <artifactId>appengine-jsr107cache</artifactId>
-                <version>1.9.60</version>
+                <version>1.9.61</version>
             </dependency>
             <dependency>
                 <groupId>com.google.appengine</groupId>
                 <artifactId>appengine-endpoints</artifactId>
-                <version>1.9.60</version>
+                <version>1.9.61</version>
             </dependency>
             <dependency>
                 <groupId>com.google.appengine</groupId>
                 <artifactId>appengine-local-endpoints</artifactId>
-                <version>1.9.60</version>
+                <version>1.9.61</version>
             </dependency>
             <dependency>
                 <groupId>com.google.appengine</groupId>
                 <artifactId>appengine-remote-api</artifactId>
-                <version>1.9.60</version>
+                <version>1.9.61</version>
             </dependency>
             <dependency>
                 <groupId>com.google.appengine</groupId>
                 <artifactId>appengine-tools-sdk</artifactId>
-                <version>1.9.60</version>
+                <version>1.9.61</version>
             </dependency>
             <!-- AppEngine dependencies usually as test scope -->
             <dependency>
                 <groupId>com.google.appengine</groupId>
                 <artifactId>appengine-testing</artifactId>
-                <version>1.9.60</version>
+                <version>1.9.61</version>
             </dependency>
             <dependency>
                 <groupId>com.google.appengine</groupId>
                 <artifactId>appengine-api-stubs</artifactId>
-                <version>1.9.60</version>
+                <version>1.9.61</version>
             </dependency>
             <!--Google Endpoints Framework and management control -->
             <dependency>
                 <groupId>com.google.endpoints</groupId>
                 <artifactId>endpoints-framework</artifactId>
-                <version>2.0.11</version>
+                <version>2.0.12</version>
             </dependency>
             <dependency>
                 <groupId>com.google.endpoints</groupId>
                 <artifactId>endpoints-framework-all</artifactId>
-                <version>2.0.11</version>
+                <version>2.0.12</version>
             </dependency>
             <dependency>
                 <groupId>com.google.endpoints</groupId>
                 <artifactId>endpoints-framework-guice</artifactId>
-                <version>2.0.11</version>
+                <version>2.0.12</version>
             </dependency>
             <dependency>
                 <groupId>com.google.endpoints</groupId>
                 <artifactId>endpoints-framework-tools</artifactId>
-                <version>2.0.11</version>
+                <version>2.0.12</version>
             </dependency>
             <dependency>
                 <groupId>com.google.endpoints</groupId>
