@@ -116,22 +116,22 @@
             <dependency>
                 <groupId>com.google.endpoints</groupId>
                 <artifactId>endpoints-framework</artifactId>
-                <version>2.0.13</version>
+                <version>2.0.14</version>
             </dependency>
             <dependency>
                 <groupId>com.google.endpoints</groupId>
                 <artifactId>endpoints-framework-all</artifactId>
-                <version>2.0.13</version>
+                <version>2.0.14</version>
             </dependency>
             <dependency>
                 <groupId>com.google.endpoints</groupId>
                 <artifactId>endpoints-framework-guice</artifactId>
-                <version>2.0.13</version>
+                <version>2.0.14</version>
             </dependency>
             <dependency>
                 <groupId>com.google.endpoints</groupId>
                 <artifactId>endpoints-framework-tools</artifactId>
-                <version>2.0.13</version>
+                <version>2.0.14</version>
             </dependency>
             <dependency>
                 <groupId>com.google.endpoints</groupId>
@@ -242,32 +242,32 @@
             <dependency>
                 <groupId>org.ctoolkit.services</groupId>
                 <artifactId>ctoolkit-services-common</artifactId>
-                <version>0.12-20180415.090025-3</version>
+                <version>0.12-20180424.053910-4</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.services</groupId>
                 <artifactId>ctoolkit-services-guice</artifactId>
-                <version>0.12-20180415.090016-3</version>
+                <version>0.12-20180424.053900-4</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.services</groupId>
                 <artifactId>ctoolkit-services-storage</artifactId>
-                <version>0.12-20180415.090039-3</version>
+                <version>0.12-20180424.053924-4</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.services</groupId>
                 <artifactId>ctoolkit-services-upload</artifactId>
-                <version>0.12-20180415.090034-3</version>
+                <version>0.12-20180424.053919-4</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.services</groupId>
                 <artifactId>ctoolkit-services-taskqueue</artifactId>
-                <version>0.12-20180415.090030-3</version>
+                <version>0.12-20180424.053915-4</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.services</groupId>
                 <artifactId>ctoolkit-services-endpoints</artifactId>
-                <version>0.12-20180415.090021-3</version>
+                <version>0.12-20180424.053905-4</version>
             </dependency>
             <!-- Test scope, unit testing -->
             <dependency>
