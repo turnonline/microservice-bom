@@ -242,32 +242,32 @@
             <dependency>
                 <groupId>org.ctoolkit.services</groupId>
                 <artifactId>ctoolkit-services-common</artifactId>
-                <version>0.12-20180501.092239-6</version>
+                <version>0.12-20180514.032114-7</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.services</groupId>
                 <artifactId>ctoolkit-services-guice</artifactId>
-                <version>0.12-20180501.092227-6</version>
+                <version>0.12-20180514.032103-7</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.services</groupId>
                 <artifactId>ctoolkit-services-storage</artifactId>
-                <version>0.12-20180501.092254-6</version>
+                <version>0.12-20180514.032128-7</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.services</groupId>
                 <artifactId>ctoolkit-services-upload</artifactId>
-                <version>0.12-20180501.092248-6</version>
+                <version>0.12-20180514.032123-7</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.services</groupId>
                 <artifactId>ctoolkit-services-taskqueue</artifactId>
-                <version>0.12-20180501.092244-6</version>
+                <version>0.12-20180514.032119-7</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.services</groupId>
                 <artifactId>ctoolkit-services-endpoints</artifactId>
-                <version>0.12-20180501.092234-6</version>
+                <version>0.12-20180514.032108-7</version>
             </dependency>
             <!-- Test scope, unit testing -->
             <dependency>
