@@ -69,48 +69,48 @@
             <dependency>
                 <groupId>com.google.appengine</groupId>
                 <artifactId>appengine-api-1.0-sdk</artifactId>
-                <version>1.9.63</version>
+                <version>1.9.64</version>
             </dependency>
             <dependency>
                 <groupId>com.google.appengine</groupId>
                 <artifactId>appengine-api-labs</artifactId>
-                <version>1.9.63</version>
+                <version>1.9.64</version>
             </dependency>
             <dependency>
                 <groupId>com.google.appengine</groupId>
                 <artifactId>appengine-jsr107cache</artifactId>
-                <version>1.9.63</version>
+                <version>1.9.64</version>
             </dependency>
             <dependency>
                 <groupId>com.google.appengine</groupId>
                 <artifactId>appengine-endpoints</artifactId>
-                <version>1.9.63</version>
+                <version>1.9.64</version>
             </dependency>
             <dependency>
                 <groupId>com.google.appengine</groupId>
                 <artifactId>appengine-local-endpoints</artifactId>
-                <version>1.9.63</version>
+                <version>1.9.64</version>
             </dependency>
             <dependency>
                 <groupId>com.google.appengine</groupId>
                 <artifactId>appengine-remote-api</artifactId>
-                <version>1.9.63</version>
+                <version>1.9.64</version>
             </dependency>
             <dependency>
                 <groupId>com.google.appengine</groupId>
                 <artifactId>appengine-tools-sdk</artifactId>
-                <version>1.9.63</version>
+                <version>1.9.64</version>
             </dependency>
             <!-- AppEngine dependencies usually as test scope -->
             <dependency>
                 <groupId>com.google.appengine</groupId>
                 <artifactId>appengine-testing</artifactId>
-                <version>1.9.63</version>
+                <version>1.9.64</version>
             </dependency>
             <dependency>
                 <groupId>com.google.appengine</groupId>
                 <artifactId>appengine-api-stubs</artifactId>
-                <version>1.9.63</version>
+                <version>1.9.64</version>
             </dependency>
             <!--Google Endpoints Framework and management control -->
             <dependency>
@@ -136,47 +136,47 @@
             <dependency>
                 <groupId>com.google.endpoints</groupId>
                 <artifactId>endpoints-management-control-all</artifactId>
-                <version>1.0.7</version>
+                <version>1.0.8</version>
             </dependency>
             <dependency>
                 <groupId>com.google.endpoints</groupId>
                 <artifactId>endpoints-management-control-appengine-all</artifactId>
-                <version>1.0.7</version>
+                <version>1.0.8</version>
             </dependency>
             <dependency>
                 <groupId>com.google.endpoints</groupId>
                 <artifactId>endpoints-management-config</artifactId>
-                <version>1.0.7</version>
+                <version>1.0.8</version>
             </dependency>
             <dependency>
                 <groupId>com.google.endpoints</groupId>
                 <artifactId>endpoints-management-protos</artifactId>
-                <version>1.0.7</version>
+                <version>1.0.8</version>
             </dependency>
             <dependency>
                 <groupId>com.google.endpoints</groupId>
                 <artifactId>endpoints-framework-auth</artifactId>
-                <version>1.0.7</version>
+                <version>1.0.8</version>
             </dependency>
             <dependency>
                 <groupId>com.google.endpoints</groupId>
                 <artifactId>endpoints-management-control-appengine</artifactId>
-                <version>1.0.7</version>
+                <version>1.0.8</version>
             </dependency>
             <dependency>
                 <groupId>com.google.endpoints</groupId>
                 <artifactId>endpoints-management-api-client</artifactId>
-                <version>1.0.7</version>
+                <version>1.0.8</version>
             </dependency>
             <dependency>
                 <groupId>com.google.endpoints</groupId>
                 <artifactId>endpoints-management-control</artifactId>
-                <version>1.0.7</version>
+                <version>1.0.8</version>
             </dependency>
             <dependency>
                 <groupId>com.google.endpoints</groupId>
                 <artifactId>endpoints-management-auth</artifactId>
-                <version>1.0.7</version>
+                <version>1.0.8</version>
             </dependency>
             <!-- CtoolkiT dependencies -->
             <dependency>
@@ -242,32 +242,32 @@
             <dependency>
                 <groupId>org.ctoolkit.services</groupId>
                 <artifactId>ctoolkit-services-common</artifactId>
-                <version>0.12-20180522.160647-9</version>
+                <version>0.12-20180608.061631-10</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.services</groupId>
                 <artifactId>ctoolkit-services-guice</artifactId>
-                <version>0.12-20180522.160637-9</version>
+                <version>0.12-20180608.061620-10</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.services</groupId>
                 <artifactId>ctoolkit-services-storage</artifactId>
-                <version>0.12-20180522.160701-9</version>
+                <version>0.12-20180608.061647-10</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.services</groupId>
                 <artifactId>ctoolkit-services-upload</artifactId>
-                <version>0.12-20180522.160656-9</version>
+                <version>0.12-20180608.061641-10</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.services</groupId>
                 <artifactId>ctoolkit-services-taskqueue</artifactId>
-                <version>0.12-20180522.160652-9</version>
+                <version>0.12-20180608.061637-10</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.services</groupId>
                 <artifactId>ctoolkit-services-endpoints</artifactId>
-                <version>0.12-20180522.160642-9</version>
+                <version>0.12-20180608.061626-10</version>
             </dependency>
             <!-- Test scope, unit testing -->
             <dependency>
