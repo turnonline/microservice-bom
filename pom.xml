@@ -20,7 +20,7 @@
     <parent>
         <groupId>org.ctoolkit.maven</groupId>
         <artifactId>ctoolkit-public</artifactId>
-        <version>1</version>
+        <version>2</version>
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
@@ -116,22 +116,22 @@
             <dependency>
                 <groupId>com.google.endpoints</groupId>
                 <artifactId>endpoints-framework</artifactId>
-                <version>2.0.14</version>
+                <version>2.1.0</version>
             </dependency>
             <dependency>
                 <groupId>com.google.endpoints</groupId>
                 <artifactId>endpoints-framework-all</artifactId>
-                <version>2.0.14</version>
+                <version>2.1.0</version>
             </dependency>
             <dependency>
                 <groupId>com.google.endpoints</groupId>
                 <artifactId>endpoints-framework-guice</artifactId>
-                <version>2.0.14</version>
+                <version>2.1.0</version>
             </dependency>
             <dependency>
                 <groupId>com.google.endpoints</groupId>
                 <artifactId>endpoints-framework-tools</artifactId>
-                <version>2.0.14</version>
+                <version>2.1.0</version>
             </dependency>
             <dependency>
                 <groupId>com.google.endpoints</groupId>
@@ -182,17 +182,17 @@
             <dependency>
                 <groupId>org.ctoolkit.restapi</groupId>
                 <artifactId>ctoolkit-rest-facade-api</artifactId>
-                <version>0.21</version>
+                <version>0.22</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.restapi</groupId>
                 <artifactId>ctoolkit-rest-facade-adapter</artifactId>
-                <version>0.26</version>
+                <version>0.27</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.restapi</groupId>
                 <artifactId>ctoolkit-rest-facade-appengine</artifactId>
-                <version>0.26</version>
+                <version>0.27</version>
                 <exclusions>
                     <exclusion>
                         <groupId>javax.jdo</groupId>
@@ -207,37 +207,37 @@
             <dependency>
                 <groupId>org.ctoolkit.restapi</groupId>
                 <artifactId>ctoolkit-client-analytics</artifactId>
-                <version>0.26</version>
+                <version>0.27</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.restapi</groupId>
                 <artifactId>ctoolkit-client-drive</artifactId>
-                <version>0.26</version>
+                <version>0.27</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.restapi</groupId>
                 <artifactId>ctoolkit-client-maps</artifactId>
-                <version>0.26</version>
+                <version>0.27</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.restapi</groupId>
                 <artifactId>ctoolkit-client-agent</artifactId>
-                <version>0.26</version>
+                <version>0.27</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.restapi</groupId>
                 <artifactId>ctoolkit-client-pubsub</artifactId>
-                <version>0.26</version>
+                <version>0.27</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.restapi</groupId>
                 <artifactId>ctoolkit-client-sheets</artifactId>
-                <version>0.26</version>
+                <version>0.27</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.restapi</groupId>
                 <artifactId>ctoolkit-client-firebase</artifactId>
-                <version>0.26</version>
+                <version>0.27</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.services</groupId>
@@ -271,6 +271,12 @@
             </dependency>
             <!-- Test scope, unit testing -->
             <dependency>
+                <groupId>com.google.truth</groupId>
+                <artifactId>truth</artifactId>
+                <version>0.40</version>
+                <scope>test</scope>
+            </dependency>
+            <dependency>
                 <groupId>org.jmockit</groupId>
                 <artifactId>jmockit</artifactId>
                 <version>1.38</version>
@@ -279,7 +285,7 @@
             <dependency>
                 <groupId>org.testng</groupId>
                 <artifactId>testng</artifactId>
-                <version>6.11</version>
+                <version>6.14.3</version>
                 <scope>test</scope>
             </dependency>
         </dependencies>
