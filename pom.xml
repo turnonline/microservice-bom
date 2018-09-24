@@ -25,7 +25,7 @@
 
     <modelVersion>4.0.0</modelVersion>
     <artifactId>ctoolkit-microservice-bom</artifactId>
-    <version>1.9.64.3-SNAPSHOT</version>
+    <version>1.9.65-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>CtoolkiT microservice on Google App Engine standard</name>
     <description>
@@ -69,114 +69,114 @@
             <dependency>
                 <groupId>com.google.appengine</groupId>
                 <artifactId>appengine-api-1.0-sdk</artifactId>
-                <version>1.9.64</version>
+                <version>1.9.65</version>
             </dependency>
             <dependency>
                 <groupId>com.google.appengine</groupId>
                 <artifactId>appengine-api-labs</artifactId>
-                <version>1.9.64</version>
+                <version>1.9.65</version>
             </dependency>
             <dependency>
                 <groupId>com.google.appengine</groupId>
                 <artifactId>appengine-jsr107cache</artifactId>
-                <version>1.9.64</version>
+                <version>1.9.65</version>
             </dependency>
             <dependency>
                 <groupId>com.google.appengine</groupId>
                 <artifactId>appengine-endpoints</artifactId>
-                <version>1.9.64</version>
+                <version>1.9.65</version>
             </dependency>
             <dependency>
                 <groupId>com.google.appengine</groupId>
                 <artifactId>appengine-local-endpoints</artifactId>
-                <version>1.9.64</version>
+                <version>1.9.65</version>
             </dependency>
             <dependency>
                 <groupId>com.google.appengine</groupId>
                 <artifactId>appengine-remote-api</artifactId>
-                <version>1.9.64</version>
+                <version>1.9.65</version>
             </dependency>
             <dependency>
                 <groupId>com.google.appengine</groupId>
                 <artifactId>appengine-tools-sdk</artifactId>
-                <version>1.9.64</version>
+                <version>1.9.65</version>
             </dependency>
             <!-- AppEngine dependencies usually as test scope -->
             <dependency>
                 <groupId>com.google.appengine</groupId>
                 <artifactId>appengine-testing</artifactId>
-                <version>1.9.64</version>
+                <version>1.9.65</version>
             </dependency>
             <dependency>
                 <groupId>com.google.appengine</groupId>
                 <artifactId>appengine-api-stubs</artifactId>
-                <version>1.9.64</version>
+                <version>1.9.65</version>
             </dependency>
             <!--Google Endpoints Framework and management control -->
             <dependency>
                 <groupId>com.google.endpoints</groupId>
                 <artifactId>endpoints-framework</artifactId>
-                <version>2.1.2</version>
+                <version>2.2.0</version>
             </dependency>
             <dependency>
                 <groupId>com.google.endpoints</groupId>
                 <artifactId>endpoints-framework-all</artifactId>
-                <version>2.1.2</version>
+                <version>2.2.0</version>
             </dependency>
             <dependency>
                 <groupId>com.google.endpoints</groupId>
                 <artifactId>endpoints-framework-guice</artifactId>
-                <version>2.1.2</version>
+                <version>2.2.0</version>
             </dependency>
             <dependency>
                 <groupId>com.google.endpoints</groupId>
                 <artifactId>endpoints-framework-tools</artifactId>
-                <version>2.1.2</version>
+                <version>2.2.0</version>
             </dependency>
             <dependency>
                 <groupId>com.google.endpoints</groupId>
                 <artifactId>endpoints-management-control-all</artifactId>
-                <version>1.0.10</version>
+                <version>1.0.11</version>
             </dependency>
             <dependency>
                 <groupId>com.google.endpoints</groupId>
                 <artifactId>endpoints-management-control-appengine-all</artifactId>
-                <version>1.0.10</version>
+                <version>1.0.11</version>
             </dependency>
             <dependency>
                 <groupId>com.google.endpoints</groupId>
                 <artifactId>endpoints-management-config</artifactId>
-                <version>1.0.10</version>
+                <version>1.0.11</version>
             </dependency>
             <dependency>
                 <groupId>com.google.endpoints</groupId>
                 <artifactId>endpoints-management-protos</artifactId>
-                <version>1.0.10</version>
+                <version>1.0.11</version>
             </dependency>
             <dependency>
                 <groupId>com.google.endpoints</groupId>
                 <artifactId>endpoints-framework-auth</artifactId>
-                <version>1.0.10</version>
+                <version>1.0.11</version>
             </dependency>
             <dependency>
                 <groupId>com.google.endpoints</groupId>
                 <artifactId>endpoints-management-control-appengine</artifactId>
-                <version>1.0.10</version>
+                <version>1.0.11</version>
             </dependency>
             <dependency>
                 <groupId>com.google.endpoints</groupId>
                 <artifactId>endpoints-management-api-client</artifactId>
-                <version>1.0.10</version>
+                <version>1.0.11</version>
             </dependency>
             <dependency>
                 <groupId>com.google.endpoints</groupId>
                 <artifactId>endpoints-management-control</artifactId>
-                <version>1.0.10</version>
+                <version>1.0.11</version>
             </dependency>
             <dependency>
                 <groupId>com.google.endpoints</groupId>
                 <artifactId>endpoints-management-auth</artifactId>
-                <version>1.0.10</version>
+                <version>1.0.11</version>
             </dependency>
             <!-- CtoolkiT dependencies -->
             <dependency>
@@ -242,32 +242,32 @@
             <dependency>
                 <groupId>org.ctoolkit.services</groupId>
                 <artifactId>ctoolkit-services-common</artifactId>
-                <version>0.14-20180831.055024-1</version>
+                <version>0.14-20180924.055559-2</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.services</groupId>
                 <artifactId>ctoolkit-services-guice</artifactId>
-                <version>0.14-20180831.055012-1</version>
+                <version>0.14-20180924.055544-2</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.services</groupId>
                 <artifactId>ctoolkit-services-storage</artifactId>
-                <version>0.14-20180831.055039-1</version>
+                <version>0.14-20180924.055619-2</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.services</groupId>
                 <artifactId>ctoolkit-services-upload</artifactId>
-                <version>0.14-20180831.055034-1</version>
+                <version>0.14-20180924.055612-2</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.services</groupId>
                 <artifactId>ctoolkit-services-taskqueue</artifactId>
-                <version>0.14-20180831.055030-1</version>
+                <version>0.14-20180924.055606-2</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.services</groupId>
                 <artifactId>ctoolkit-services-endpoints</artifactId>
-                <version>0.14-20180831.055017-1</version>
+                <version>0.14-20180924.055552-2</version>
             </dependency>
             <!-- Test scope, unit testing -->
             <dependency>
