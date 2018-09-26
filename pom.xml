@@ -187,12 +187,12 @@
             <dependency>
                 <groupId>org.ctoolkit.restapi</groupId>
                 <artifactId>ctoolkit-rest-facade-adapter</artifactId>
-                <version>0.28-20180831.054508-1</version>
+                <version>0.28-20180926.173449-2</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.restapi</groupId>
                 <artifactId>ctoolkit-rest-facade-appengine</artifactId>
-                <version>0.28-20180831.054515-1</version>
+                <version>0.28-20180926.173457-2</version>
                 <exclusions>
                     <exclusion>
                         <groupId>javax.jdo</groupId>
@@ -207,67 +207,67 @@
             <dependency>
                 <groupId>org.ctoolkit.restapi</groupId>
                 <artifactId>ctoolkit-client-analytics</artifactId>
-                <version>0.28-20180831.054521-1</version>
+                <version>0.28-20180926.173505-2</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.restapi</groupId>
                 <artifactId>ctoolkit-client-drive</artifactId>
-                <version>0.28-20180831.054524-1</version>
+                <version>0.28-20180926.173509-2</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.restapi</groupId>
                 <artifactId>ctoolkit-client-maps</artifactId>
-                <version>0.28-20180831.054531-1</version>
+                <version>0.28-20180926.173517-2</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.restapi</groupId>
                 <artifactId>ctoolkit-client-agent</artifactId>
-                <version>0.28-20180831.054518-1</version>
+                <version>0.28-20180926.173502-2</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.restapi</groupId>
                 <artifactId>ctoolkit-client-pubsub</artifactId>
-                <version>0.28-20180831.054535-1</version>
+                <version>0.28-20180926.173522-2</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.restapi</groupId>
                 <artifactId>ctoolkit-client-sheets</artifactId>
-                <version>0.28-20180831.054537-1</version>
+                <version>0.28-20180926.173525-2</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.restapi</groupId>
                 <artifactId>ctoolkit-client-firebase</artifactId>
-                <version>0.28-20180831.054528-1</version>
+                <version>0.28-20180926.173514-2</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.services</groupId>
                 <artifactId>ctoolkit-services-common</artifactId>
-                <version>0.14-20180924.055559-2</version>
+                <version>0.14-20180926.172827-4</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.services</groupId>
                 <artifactId>ctoolkit-services-guice</artifactId>
-                <version>0.14-20180924.055544-2</version>
+                <version>0.14-20180926.172807-4</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.services</groupId>
                 <artifactId>ctoolkit-services-storage</artifactId>
-                <version>0.14-20180924.055619-2</version>
+                <version>0.14-20180926.172849-4</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.services</groupId>
                 <artifactId>ctoolkit-services-upload</artifactId>
-                <version>0.14-20180924.055612-2</version>
+                <version>0.14-20180926.172844-4</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.services</groupId>
                 <artifactId>ctoolkit-services-taskqueue</artifactId>
-                <version>0.14-20180924.055606-2</version>
+                <version>0.14-20180926.172835-4</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.services</groupId>
                 <artifactId>ctoolkit-services-endpoints</artifactId>
-                <version>0.14-20180924.055552-2</version>
+                <version>0.14-20180926.172815-4</version>
             </dependency>
             <!-- Test scope, unit testing -->
             <dependency>
