@@ -242,32 +242,32 @@
             <dependency>
                 <groupId>org.ctoolkit.services</groupId>
                 <artifactId>ctoolkit-services-common</artifactId>
-                <version>0.16-20181202.065603-4</version>
+                <version>0.16-20181204.202634-5</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.services</groupId>
                 <artifactId>ctoolkit-services-guice</artifactId>
-                <version>0.16-20181202.065554-4</version>
+                <version>0.16-20181204.202624-5</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.services</groupId>
                 <artifactId>ctoolkit-services-storage</artifactId>
-                <version>0.16-20181202.065616-4</version>
+                <version>0.16-20181204.202649-5</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.services</groupId>
                 <artifactId>ctoolkit-services-upload</artifactId>
-                <version>0.16-20181202.065611-4</version>
+                <version>0.16-20181204.202643-5</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.services</groupId>
                 <artifactId>ctoolkit-services-taskqueue</artifactId>
-                <version>0.16-20181202.065608-4</version>
+                <version>0.16-20181204.202639-5</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.services</groupId>
                 <artifactId>ctoolkit-services-endpoints</artifactId>
-                <version>0.16-20181202.065559-4</version>
+                <version>0.16-20181204.202630-5</version>
             </dependency>
             <!-- Test scope, unit testing -->
             <dependency>
