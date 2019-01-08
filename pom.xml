@@ -227,7 +227,7 @@
             <dependency>
                 <groupId>org.ctoolkit.restapi</groupId>
                 <artifactId>ctoolkit-client-pubsub</artifactId>
-                <version>0.30-20190108.054938-4</version>
+                <version>0.30-20190108.063455-5</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.restapi</groupId>
