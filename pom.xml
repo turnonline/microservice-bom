@@ -182,7 +182,7 @@
             <dependency>
                 <groupId>org.ctoolkit.restapi</groupId>
                 <artifactId>ctoolkit-rest-facade-api</artifactId>
-                <version>0.25</version>
+                <version>0.26</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.restapi</groupId>
