@@ -136,47 +136,47 @@
             <dependency>
                 <groupId>com.google.endpoints</groupId>
                 <artifactId>endpoints-management-control-all</artifactId>
-                <version>1.0.11</version>
+                <version>1.0.12</version>
             </dependency>
             <dependency>
                 <groupId>com.google.endpoints</groupId>
                 <artifactId>endpoints-management-control-appengine-all</artifactId>
-                <version>1.0.11</version>
+                <version>1.0.12</version>
             </dependency>
             <dependency>
                 <groupId>com.google.endpoints</groupId>
                 <artifactId>endpoints-management-config</artifactId>
-                <version>1.0.11</version>
+                <version>1.0.12</version>
             </dependency>
             <dependency>
                 <groupId>com.google.endpoints</groupId>
                 <artifactId>endpoints-management-protos</artifactId>
-                <version>1.0.11</version>
+                <version>1.0.12</version>
             </dependency>
             <dependency>
                 <groupId>com.google.endpoints</groupId>
                 <artifactId>endpoints-framework-auth</artifactId>
-                <version>1.0.11</version>
+                <version>1.0.12</version>
             </dependency>
             <dependency>
                 <groupId>com.google.endpoints</groupId>
                 <artifactId>endpoints-management-control-appengine</artifactId>
-                <version>1.0.11</version>
+                <version>1.0.12</version>
             </dependency>
             <dependency>
                 <groupId>com.google.endpoints</groupId>
                 <artifactId>endpoints-management-api-client</artifactId>
-                <version>1.0.11</version>
+                <version>1.0.12</version>
             </dependency>
             <dependency>
                 <groupId>com.google.endpoints</groupId>
                 <artifactId>endpoints-management-control</artifactId>
-                <version>1.0.11</version>
+                <version>1.0.12</version>
             </dependency>
             <dependency>
                 <groupId>com.google.endpoints</groupId>
                 <artifactId>endpoints-management-auth</artifactId>
-                <version>1.0.11</version>
+                <version>1.0.12</version>
             </dependency>
             <!-- CtoolkiT dependencies -->
             <dependency>
@@ -242,32 +242,32 @@
             <dependency>
                 <groupId>org.ctoolkit.services</groupId>
                 <artifactId>ctoolkit-services-common</artifactId>
-                <version>0.22</version>
+                <version>0.23</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.services</groupId>
                 <artifactId>ctoolkit-services-guice</artifactId>
-                <version>0.22</version>
+                <version>0.23</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.services</groupId>
                 <artifactId>ctoolkit-services-storage</artifactId>
-                <version>0.22</version>
+                <version>0.23</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.services</groupId>
                 <artifactId>ctoolkit-services-upload</artifactId>
-                <version>0.22</version>
+                <version>0.23</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.services</groupId>
                 <artifactId>ctoolkit-services-taskqueue</artifactId>
-                <version>0.22</version>
+                <version>0.23</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.services</groupId>
                 <artifactId>ctoolkit-services-endpoints</artifactId>
-                <version>0.22</version>
+                <version>0.23</version>
             </dependency>
             <!-- Test scope, unit testing -->
             <dependency>
