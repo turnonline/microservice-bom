@@ -221,11 +221,6 @@
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.restapi</groupId>
-                <artifactId>ctoolkit-client-agent</artifactId>
-                <version>0.35-20191020.113118-5</version>
-            </dependency>
-            <dependency>
-                <groupId>org.ctoolkit.restapi</groupId>
                 <artifactId>ctoolkit-client-pubsub</artifactId>
                 <version>0.35-20191020.113136-5</version>
             </dependency>
