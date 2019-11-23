@@ -237,38 +237,43 @@
             <dependency>
                 <groupId>org.ctoolkit.services</groupId>
                 <artifactId>ctoolkit-services-common</artifactId>
-                <version>0.25-20191117.112249-3</version>
+                <version>0.25</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.services</groupId>
                 <artifactId>ctoolkit-services-guice</artifactId>
-                <version>0.25-20191117.112240-3</version>
+                <version>0.25</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.services</groupId>
                 <artifactId>ctoolkit-services-storage</artifactId>
-                <version>0.25-20191117.112310-3</version>
+                <version>0.25</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.services</groupId>
                 <artifactId>ctoolkit-services-upload</artifactId>
-                <version>0.25-20191117.112316-3</version>
+                <version>0.25</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.services</groupId>
                 <artifactId>ctoolkit-services-taskqueue</artifactId>
-                <version>0.25-20191117.112255-3</version>
+                <version>0.25</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.services</groupId>
                 <artifactId>ctoolkit-services-endpoints</artifactId>
-                <version>0.25-20191117.112245-3</version>
+                <version>0.25</version>
+            </dependency>
+            <dependency>
+                <groupId>org.ctoolkit.agent</groupId>
+                <artifactId>ctoolkit-agent-import</artifactId>
+                <version>1.2</version>
             </dependency>
             <!-- Test scope, unit testing -->
             <dependency>
                 <groupId>com.google.truth</groupId>
                 <artifactId>truth</artifactId>
-                <version>0.45</version>
+                <version>1.0</version>
                 <scope>test</scope>
             </dependency>
             <dependency>
