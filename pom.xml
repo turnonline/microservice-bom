@@ -187,12 +187,12 @@
             <dependency>
                 <groupId>org.ctoolkit.restapi</groupId>
                 <artifactId>ctoolkit-rest-facade-adapter</artifactId>
-                <version>0.36-20200324.143922-3</version>
+                <version>0.36</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.restapi</groupId>
                 <artifactId>ctoolkit-rest-facade-appengine</artifactId>
-                <version>0.36-20200324.143929-3</version>
+                <version>0.36</version>
                 <exclusions>
                     <exclusion>
                         <groupId>javax.jdo</groupId>
@@ -207,32 +207,32 @@
             <dependency>
                 <groupId>org.ctoolkit.restapi</groupId>
                 <artifactId>ctoolkit-client-analytics</artifactId>
-                <version>0.36-20200324.143931-3</version>
+                <version>0.36</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.restapi</groupId>
                 <artifactId>ctoolkit-client-drive</artifactId>
-                <version>0.36-20200324.143934-3</version>
+                <version>0.36</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.restapi</groupId>
                 <artifactId>ctoolkit-client-maps</artifactId>
-                <version>0.36-20200324.143941-3</version>
+                <version>0.36</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.restapi</groupId>
                 <artifactId>ctoolkit-client-pubsub</artifactId>
-                <version>0.36-20200324.143946-3</version>
+                <version>0.36</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.restapi</groupId>
                 <artifactId>ctoolkit-client-sheets</artifactId>
-                <version>0.36-20200324.143949-3</version>
+                <version>0.36</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.restapi</groupId>
                 <artifactId>ctoolkit-client-firebase</artifactId>
-                <version>0.36-20200324.143939-3</version>
+                <version>0.36</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.services</groupId>
