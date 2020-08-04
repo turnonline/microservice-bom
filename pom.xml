@@ -69,48 +69,48 @@
             <dependency>
                 <groupId>com.google.appengine</groupId>
                 <artifactId>appengine-api-1.0-sdk</artifactId>
-                <version>1.9.79</version>
+                <version>1.9.80</version>
             </dependency>
             <dependency>
                 <groupId>com.google.appengine</groupId>
                 <artifactId>appengine-api-labs</artifactId>
-                <version>1.9.79</version>
+                <version>1.9.80</version>
             </dependency>
             <dependency>
                 <groupId>com.google.appengine</groupId>
                 <artifactId>appengine-jsr107cache</artifactId>
-                <version>1.9.79</version>
+                <version>1.9.80</version>
             </dependency>
             <dependency>
                 <groupId>com.google.appengine</groupId>
                 <artifactId>appengine-endpoints</artifactId>
-                <version>1.9.79</version>
+                <version>1.9.80</version>
             </dependency>
             <dependency>
                 <groupId>com.google.appengine</groupId>
                 <artifactId>appengine-local-endpoints</artifactId>
-                <version>1.9.79</version>
+                <version>1.9.80</version>
             </dependency>
             <dependency>
                 <groupId>com.google.appengine</groupId>
                 <artifactId>appengine-remote-api</artifactId>
-                <version>1.9.79</version>
+                <version>1.9.80</version>
             </dependency>
             <dependency>
                 <groupId>com.google.appengine</groupId>
                 <artifactId>appengine-tools-sdk</artifactId>
-                <version>1.9.79</version>
+                <version>1.9.80</version>
             </dependency>
             <!-- AppEngine dependencies usually as test scope -->
             <dependency>
                 <groupId>com.google.appengine</groupId>
                 <artifactId>appengine-testing</artifactId>
-                <version>1.9.79</version>
+                <version>1.9.80</version>
             </dependency>
             <dependency>
                 <groupId>com.google.appengine</groupId>
                 <artifactId>appengine-api-stubs</artifactId>
-                <version>1.9.79</version>
+                <version>1.9.80</version>
             </dependency>
             <!--Google Endpoints Framework and management control -->
             <dependency>
@@ -237,32 +237,32 @@
             <dependency>
                 <groupId>org.ctoolkit.services</groupId>
                 <artifactId>ctoolkit-services-common</artifactId>
-                <version>0.27</version>
+                <version>0.28</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.services</groupId>
                 <artifactId>ctoolkit-services-guice</artifactId>
-                <version>0.27</version>
+                <version>0.28</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.services</groupId>
                 <artifactId>ctoolkit-services-storage</artifactId>
-                <version>0.27</version>
+                <version>0.28</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.services</groupId>
                 <artifactId>ctoolkit-services-upload</artifactId>
-                <version>0.27</version>
+                <version>0.28</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.services</groupId>
                 <artifactId>ctoolkit-services-taskqueue</artifactId>
-                <version>0.27</version>
+                <version>0.28</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.services</groupId>
                 <artifactId>ctoolkit-services-endpoints</artifactId>
-                <version>0.27</version>
+                <version>0.28</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.agent</groupId>
@@ -285,7 +285,7 @@
             <dependency>
                 <groupId>org.testng</groupId>
                 <artifactId>testng</artifactId>
-                <version>7.1.0</version>
+                <version>7.3.0</version>
                 <scope>test</scope>
             </dependency>
         </dependencies>
