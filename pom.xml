@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-  ~ Copyright 2017 Comvai, s.r.o.
+  ~ Copyright (c) 2020 TurnOnline.biz s.r.o. All Rights Reserved.
   ~
   ~ Licensed under the Apache License, Version 2.0 (the "License");
   ~ you may not use this file except in compliance with the License.
@@ -69,48 +69,48 @@
             <dependency>
                 <groupId>com.google.appengine</groupId>
                 <artifactId>appengine-api-1.0-sdk</artifactId>
-                <version>1.9.80</version>
+                <version>1.9.81</version>
             </dependency>
             <dependency>
                 <groupId>com.google.appengine</groupId>
                 <artifactId>appengine-api-labs</artifactId>
-                <version>1.9.80</version>
+                <version>1.9.81</version>
             </dependency>
             <dependency>
                 <groupId>com.google.appengine</groupId>
                 <artifactId>appengine-jsr107cache</artifactId>
-                <version>1.9.80</version>
+                <version>1.9.81</version>
             </dependency>
             <dependency>
                 <groupId>com.google.appengine</groupId>
                 <artifactId>appengine-endpoints</artifactId>
-                <version>1.9.80</version>
+                <version>1.9.81</version>
             </dependency>
             <dependency>
                 <groupId>com.google.appengine</groupId>
                 <artifactId>appengine-local-endpoints</artifactId>
-                <version>1.9.80</version>
+                <version>1.9.81</version>
             </dependency>
             <dependency>
                 <groupId>com.google.appengine</groupId>
                 <artifactId>appengine-remote-api</artifactId>
-                <version>1.9.80</version>
+                <version>1.9.81</version>
             </dependency>
             <dependency>
                 <groupId>com.google.appengine</groupId>
                 <artifactId>appengine-tools-sdk</artifactId>
-                <version>1.9.80</version>
+                <version>1.9.81</version>
             </dependency>
             <!-- AppEngine dependencies usually as test scope -->
             <dependency>
                 <groupId>com.google.appengine</groupId>
                 <artifactId>appengine-testing</artifactId>
-                <version>1.9.80</version>
+                <version>1.9.81</version>
             </dependency>
             <dependency>
                 <groupId>com.google.appengine</groupId>
                 <artifactId>appengine-api-stubs</artifactId>
-                <version>1.9.80</version>
+                <version>1.9.81</version>
             </dependency>
             <!--Google Endpoints Framework and management control -->
             <dependency>
@@ -136,47 +136,47 @@
             <dependency>
                 <groupId>com.google.endpoints</groupId>
                 <artifactId>endpoints-management-control-all</artifactId>
-                <version>1.0.12</version>
+                <version>1.0.13</version>
             </dependency>
             <dependency>
                 <groupId>com.google.endpoints</groupId>
                 <artifactId>endpoints-management-control-appengine-all</artifactId>
-                <version>1.0.12</version>
+                <version>1.0.13</version>
             </dependency>
             <dependency>
                 <groupId>com.google.endpoints</groupId>
                 <artifactId>endpoints-management-config</artifactId>
-                <version>1.0.12</version>
+                <version>1.0.13</version>
             </dependency>
             <dependency>
                 <groupId>com.google.endpoints</groupId>
                 <artifactId>endpoints-management-protos</artifactId>
-                <version>1.0.12</version>
+                <version>1.0.13</version>
             </dependency>
             <dependency>
                 <groupId>com.google.endpoints</groupId>
                 <artifactId>endpoints-framework-auth</artifactId>
-                <version>1.0.12</version>
+                <version>1.0.13</version>
             </dependency>
             <dependency>
                 <groupId>com.google.endpoints</groupId>
                 <artifactId>endpoints-management-control-appengine</artifactId>
-                <version>1.0.12</version>
+                <version>1.0.13</version>
             </dependency>
             <dependency>
                 <groupId>com.google.endpoints</groupId>
                 <artifactId>endpoints-management-api-client</artifactId>
-                <version>1.0.12</version>
+                <version>1.0.13</version>
             </dependency>
             <dependency>
                 <groupId>com.google.endpoints</groupId>
                 <artifactId>endpoints-management-control</artifactId>
-                <version>1.0.12</version>
+                <version>1.0.13</version>
             </dependency>
             <dependency>
                 <groupId>com.google.endpoints</groupId>
                 <artifactId>endpoints-management-auth</artifactId>
-                <version>1.0.12</version>
+                <version>1.0.13</version>
             </dependency>
             <!-- CtoolkiT dependencies -->
             <dependency>
@@ -292,6 +292,6 @@
     </dependencyManagement>
 
     <properties>
-        <jmockit.version>1.41</jmockit.version>
+        <jmockit.version>1.49</jmockit.version>
     </properties>
 </project>
