@@ -25,7 +25,7 @@
 
     <modelVersion>4.0.0</modelVersion>
     <artifactId>ctoolkit-microservice-bom</artifactId>
-    <version>1.9.83-SNAPSHOT</version>
+    <version>1.9.82.1-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>CtoolkiT microservice on Google App Engine standard</name>
     <description>
@@ -237,32 +237,32 @@
             <dependency>
                 <groupId>org.ctoolkit.services</groupId>
                 <artifactId>ctoolkit-services-common</artifactId>
-                <version>0.30</version>
+                <version>0.31</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.services</groupId>
                 <artifactId>ctoolkit-services-guice</artifactId>
-                <version>0.30</version>
+                <version>0.31</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.services</groupId>
                 <artifactId>ctoolkit-services-storage</artifactId>
-                <version>0.30</version>
+                <version>0.31</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.services</groupId>
                 <artifactId>ctoolkit-services-upload</artifactId>
-                <version>0.30</version>
+                <version>0.31</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.services</groupId>
                 <artifactId>ctoolkit-services-taskqueue</artifactId>
-                <version>0.30</version>
+                <version>0.31</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.services</groupId>
                 <artifactId>ctoolkit-services-endpoints</artifactId>
-                <version>0.30</version>
+                <version>0.31</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.agent</groupId>
