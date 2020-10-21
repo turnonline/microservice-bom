@@ -25,7 +25,7 @@
 
     <modelVersion>4.0.0</modelVersion>
     <artifactId>ctoolkit-microservice-bom</artifactId>
-    <version>1.9.82.1-SNAPSHOT</version>
+    <version>1.9.82.1</version>
     <packaging>pom</packaging>
     <name>CtoolkiT microservice on Google App Engine standard</name>
     <description>
@@ -39,7 +39,7 @@
         <developerConnection>scm:git:[push=]git@github.com:turnonline/ctoolkit-microservice-bom.git
         </developerConnection>
         <url>https://github.com/turnonline/ctoolkit-microservice-bom</url>
-        <tag>HEAD</tag>
+        <tag>ctoolkit-microservice-bom-1.9.82.1</tag>
     </scm>
 
     <issueManagement>
