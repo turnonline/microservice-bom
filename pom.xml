@@ -25,7 +25,7 @@
 
     <modelVersion>4.0.0</modelVersion>
     <artifactId>ctoolkit-microservice-bom</artifactId>
-    <version>1.9.83-SNAPSHOT</version>
+    <version>1.9.82.4-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>CtoolkiT microservice on Google App Engine standard</name>
     <description>
@@ -116,22 +116,22 @@
             <dependency>
                 <groupId>com.google.endpoints</groupId>
                 <artifactId>endpoints-framework</artifactId>
-                <version>2.2.1</version>
+                <version>2.2.2</version>
             </dependency>
             <dependency>
                 <groupId>com.google.endpoints</groupId>
                 <artifactId>endpoints-framework-all</artifactId>
-                <version>2.2.1</version>
+                <version>2.2.2</version>
             </dependency>
             <dependency>
                 <groupId>com.google.endpoints</groupId>
                 <artifactId>endpoints-framework-guice</artifactId>
-                <version>2.2.1</version>
+                <version>2.2.2</version>
             </dependency>
             <dependency>
                 <groupId>com.google.endpoints</groupId>
                 <artifactId>endpoints-framework-tools</artifactId>
-                <version>2.2.1</version>
+                <version>2.2.2</version>
             </dependency>
             <dependency>
                 <groupId>com.google.endpoints</groupId>
@@ -237,32 +237,32 @@
             <dependency>
                 <groupId>org.ctoolkit.services</groupId>
                 <artifactId>ctoolkit-services-common</artifactId>
-                <version>0.33</version>
+                <version>0.34-20210925.053221-4</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.services</groupId>
                 <artifactId>ctoolkit-services-guice</artifactId>
-                <version>0.33</version>
+                <version>0.34-20210925.053151-4</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.services</groupId>
                 <artifactId>ctoolkit-services-storage</artifactId>
-                <version>0.33</version>
+                <version>0.34-20210925.053249-4</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.services</groupId>
                 <artifactId>ctoolkit-services-upload</artifactId>
-                <version>0.33</version>
+                <version>0.34-20210925.053301-4</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.services</groupId>
                 <artifactId>ctoolkit-services-taskqueue</artifactId>
-                <version>0.33</version>
+                <version>0.34-20210925.053232-4</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.services</groupId>
                 <artifactId>ctoolkit-services-endpoints</artifactId>
-                <version>0.33</version>
+                <version>0.34-20210925.053205-4</version>
             </dependency>
             <dependency>
                 <groupId>org.ctoolkit.agent</groupId>
@@ -273,7 +273,7 @@
             <dependency>
                 <groupId>com.google.truth</groupId>
                 <artifactId>truth</artifactId>
-                <version>1.1</version>
+                <version>1.1.3</version>
                 <scope>test</scope>
             </dependency>
             <dependency>
@@ -285,7 +285,7 @@
             <dependency>
                 <groupId>org.testng</groupId>
                 <artifactId>testng</artifactId>
-                <version>7.3.0</version>
+                <version>7.4.0</version>
                 <scope>test</scope>
             </dependency>
         </dependencies>
