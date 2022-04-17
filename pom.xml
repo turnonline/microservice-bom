@@ -69,7 +69,7 @@
             <dependency>
                 <groupId>com.google.appengine</groupId>
                 <artifactId>appengine-api-1.0-sdk</artifactId>
-                <version>1.9.95</version>
+                <version>1.9.96</version>
             </dependency>
             <dependency>
                 <groupId>com.google.appengine</groupId>
@@ -79,7 +79,7 @@
             <dependency>
                 <groupId>com.google.appengine</groupId>
                 <artifactId>appengine-jsr107cache</artifactId>
-                <version>1.9.95</version>
+                <version>1.9.96</version>
             </dependency>
             <dependency>
                 <groupId>com.google.appengine</groupId>
@@ -94,23 +94,23 @@
             <dependency>
                 <groupId>com.google.appengine</groupId>
                 <artifactId>appengine-remote-api</artifactId>
-                <version>1.9.95</version>
+                <version>1.9.96</version>
             </dependency>
             <dependency>
                 <groupId>com.google.appengine</groupId>
                 <artifactId>appengine-tools-sdk</artifactId>
-                <version>1.9.95</version>
+                <version>1.9.96</version>
             </dependency>
             <!-- AppEngine dependencies usually as test scope -->
             <dependency>
                 <groupId>com.google.appengine</groupId>
                 <artifactId>appengine-testing</artifactId>
-                <version>1.9.95</version>
+                <version>1.9.96</version>
             </dependency>
             <dependency>
                 <groupId>com.google.appengine</groupId>
                 <artifactId>appengine-api-stubs</artifactId>
-                <version>1.9.95</version>
+                <version>1.9.96</version>
             </dependency>
             <!--Google Endpoints Framework and management control -->
             <dependency>
