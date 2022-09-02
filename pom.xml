@@ -25,7 +25,7 @@
 
     <modelVersion>4.0.0</modelVersion>
     <artifactId>ctoolkit-microservice-bom</artifactId>
-    <version>1.9.97-SNAPSHOT</version>
+    <version>1.9.98-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>TurnOnline.biz microservice on Google App Engine standard</name>
     <description>
@@ -69,7 +69,7 @@
             <dependency>
                 <groupId>com.google.appengine</groupId>
                 <artifactId>appengine-api-1.0-sdk</artifactId>
-                <version>1.9.96</version>
+                <version>1.9.98</version>
             </dependency>
             <dependency>
                 <groupId>com.google.appengine</groupId>
@@ -79,7 +79,7 @@
             <dependency>
                 <groupId>com.google.appengine</groupId>
                 <artifactId>appengine-jsr107cache</artifactId>
-                <version>1.9.96</version>
+                <version>1.9.98</version>
             </dependency>
             <dependency>
                 <groupId>com.google.appengine</groupId>
@@ -94,23 +94,23 @@
             <dependency>
                 <groupId>com.google.appengine</groupId>
                 <artifactId>appengine-remote-api</artifactId>
-                <version>1.9.96</version>
+                <version>1.9.98</version>
             </dependency>
             <dependency>
                 <groupId>com.google.appengine</groupId>
                 <artifactId>appengine-tools-sdk</artifactId>
-                <version>1.9.96</version>
+                <version>1.9.98</version>
             </dependency>
             <!-- AppEngine dependencies usually as test scope -->
             <dependency>
                 <groupId>com.google.appengine</groupId>
                 <artifactId>appengine-testing</artifactId>
-                <version>1.9.96</version>
+                <version>1.9.98</version>
             </dependency>
             <dependency>
                 <groupId>com.google.appengine</groupId>
                 <artifactId>appengine-api-stubs</artifactId>
-                <version>1.9.96</version>
+                <version>1.9.98</version>
             </dependency>
             <!--Google Endpoints Framework and management control -->
             <dependency>
@@ -285,7 +285,7 @@
             <dependency>
                 <groupId>org.testng</groupId>
                 <artifactId>testng</artifactId>
-                <version>7.4.0</version>
+                <version>7.6.1</version>
                 <scope>test</scope>
             </dependency>
         </dependencies>
