@@ -25,7 +25,7 @@
 
     <modelVersion>4.0.0</modelVersion>
     <artifactId>ctoolkit-microservice-bom</artifactId>
-    <version>1.9.99-SNAPSHOT</version>
+    <version>1.9.98-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>TurnOnline.biz microservice on Google App Engine standard</name>
     <description>
@@ -285,7 +285,7 @@
             <dependency>
                 <groupId>org.testng</groupId>
                 <artifactId>testng</artifactId>
-                <version>7.6.1</version>
+                <version>7.4.0</version>
                 <scope>test</scope>
             </dependency>
         </dependencies>
