@@ -20,17 +20,17 @@
     <parent>
         <groupId>org.ctoolkit.maven</groupId>
         <artifactId>ctoolkit-public</artifactId>
-        <version>2</version>
+        <version>3</version>
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
     <artifactId>ctoolkit-microservice-bom</artifactId>
-    <version>1.9.99-SNAPSHOT</version>
+    <version>2.0.21-SNAPSHOT</version>
     <packaging>pom</packaging>
-    <name>TurnOnline.biz microservice on Google App Engine standard</name>
+    <name>TurnOnline.biz microservice on the Google App Engine standard for Java 11+ that provides access to legacy services</name>
     <description>
-        TurnOnline.biz based microservice for Google App Engine standard Bill of Materials - keeps track of dependency
-        versions and ensures that all works well together.
+        TurnOnline.biz is a microservice based on the Google App Engine standard for Java x11+, providing access to legacy bundled services.
+        Bill of Materials: This component keeps track of dependency versions and ensures that everything works well together.
     </description>
     <url>https://github.com/turnonline/ctoolkit-microservice-bom</url>
 
@@ -62,24 +62,19 @@
         </license>
     </licenses>
 
-    <!-- Use here only release version of dependency -->
+    <!-- Use here only a release version of dependency -->
     <dependencyManagement>
         <dependencies>
             <!-- AppEngine dependencies -->
             <dependency>
                 <groupId>com.google.appengine</groupId>
                 <artifactId>appengine-api-1.0-sdk</artifactId>
-                <version>1.9.98</version>
+                <version>2.0.21</version>
             </dependency>
             <dependency>
                 <groupId>com.google.appengine</groupId>
-                <artifactId>appengine-api-labs</artifactId>
-                <version>1.9.88</version>
-            </dependency>
-            <dependency>
-                <groupId>com.google.appengine</groupId>
-                <artifactId>appengine-jsr107cache</artifactId>
-                <version>1.9.98</version>
+                <artifactId>appengine-api-legacy</artifactId>
+                <version>2.0.21</version>
             </dependency>
             <dependency>
                 <groupId>com.google.appengine</groupId>
@@ -94,23 +89,28 @@
             <dependency>
                 <groupId>com.google.appengine</groupId>
                 <artifactId>appengine-remote-api</artifactId>
-                <version>1.9.98</version>
+                <version>2.0.21</version>
             </dependency>
             <dependency>
                 <groupId>com.google.appengine</groupId>
                 <artifactId>appengine-tools-sdk</artifactId>
-                <version>1.9.98</version>
+                <version>2.0.21</version>
             </dependency>
             <!-- AppEngine dependencies usually as test scope -->
             <dependency>
                 <groupId>com.google.appengine</groupId>
                 <artifactId>appengine-testing</artifactId>
-                <version>1.9.98</version>
+                <version>2.0.21</version>
             </dependency>
             <dependency>
                 <groupId>com.google.appengine</groupId>
                 <artifactId>appengine-api-stubs</artifactId>
-                <version>1.9.98</version>
+                <version>2.0.21</version>
+            </dependency>
+            <dependency>
+                <groupId>jakarta.xml.bind</groupId>
+                <artifactId>jakarta.xml.bind-api</artifactId>
+                <version>2.3.3</version>
             </dependency>
             <!--Google Endpoints Framework and management control -->
             <dependency>

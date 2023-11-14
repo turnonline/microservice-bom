@@ -1,2 +1,5 @@
-# CtoolkiT microservice on Google AppEngine standard
-CtoolkiT based microservice on Google App Engine standard Bill of Materials - keeps track of dependency versions and ensures that all works well together.
+# TurnOnline.biz microservice on the Google AppEngine standard
+
+TurnOnline.biz is a microservice based on the Google App Engine standard for Java 11+, providing access to legacy
+bundled services. Bill of Materials: This component keeps track of dependency versions and ensures that everything works
+well together.
