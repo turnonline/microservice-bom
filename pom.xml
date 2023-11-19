@@ -25,7 +25,7 @@
 
     <modelVersion>4.0.0</modelVersion>
     <artifactId>ctoolkit-microservice-bom</artifactId>
-    <version>2.0.22-SNAPSHOT</version>
+    <version>2.0.22</version>
     <packaging>pom</packaging>
     <name>TurnOnline.biz microservice on the Google App Engine standard for Java 11+ that provides access to legacy services</name>
     <description>
@@ -39,7 +39,7 @@
         <developerConnection>scm:git:[push=]git@github.com:turnonline/ctoolkit-microservice-bom.git
         </developerConnection>
         <url>https://github.com/turnonline/ctoolkit-microservice-bom</url>
-        <tag>HEAD</tag>
+        <tag>ctoolkit-microservice-bom-2.0.22</tag>
     </scm>
 
     <issueManagement>
