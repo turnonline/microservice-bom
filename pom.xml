@@ -24,26 +24,27 @@
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
-    <artifactId>ctoolkit-microservice-bom</artifactId>
+    <groupId>biz.turnonline.ecosystem</groupId>
+    <artifactId>connecsys-microservice-bom</artifactId>
     <version>2.0.23-SNAPSHOT</version>
     <packaging>pom</packaging>
-    <name>TurnOnline.biz microservice on the Google App Engine standard for Java 11+ that provides access to legacy services</name>
+    <name>ConnecSys microservice on the Google App Engine standard for Java 11+ that provides access to legacy services</name>
     <description>
-        TurnOnline.biz microservice based on the Google App Engine standard for Java x11+, providing access to legacy bundled services.
+        ConnecSys microservice based on the Google App Engine standard for Java 11+, providing access to legacy bundled services.
         Bill of Materials: This component keeps track of dependency versions and ensures that everything works well together.
     </description>
-    <url>https://github.com/turnonline/ctoolkit-microservice-bom</url>
+    <url>https://github.com/turnonline/microservice-bom</url>
 
     <scm>
-        <connection>scm:git:[fetch=]git@github.com:turnonline/ctoolkit-microservice-bom.git</connection>
-        <developerConnection>scm:git:[push=]git@github.com:turnonline/ctoolkit-microservice-bom.git
+        <connection>scm:git:[fetch=]git@github.com:turnonline/microservice-bom.git</connection>
+        <developerConnection>scm:git:[push=]git@github.com:turnonline/microservice-bom.git
         </developerConnection>
-        <url>https://github.com/turnonline/ctoolkit-microservice-bom</url>
+        <url>https://github.com/turnonline/microservice-bom</url>
         <tag>HEAD</tag>
     </scm>
 
     <issueManagement>
-        <url>https://github.com/turnonline/ctoolkit-microservice-bom/issues</url>
+        <url>https://github.com/turnonline/microservice-bom/issues</url>
     </issueManagement>
 
     <developers>
