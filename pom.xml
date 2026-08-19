@@ -25,7 +25,7 @@
 
     <modelVersion>4.0.0</modelVersion>
     <artifactId>connecsys-microservice-bom</artifactId>
-    <version>5.0.4-SNAPSHOT</version>
+    <version>5.0.4</version>
     <packaging>pom</packaging>
     <name>ConnecSys microservice on the Google App Engine standard for Java 17+ (java21 runtime) that provides access to legacy services</name>
     <description>
@@ -39,7 +39,7 @@
         <developerConnection>scm:git:[push=]git@github.com:turnonline/microservice-bom.git
         </developerConnection>
         <url>https://github.com/turnonline/microservice-bom</url>
-        <tag>HEAD</tag>
+        <tag>connecsys-microservice-bom-5.0.4</tag>
     </scm>
 
     <issueManagement>
